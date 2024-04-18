@@ -1,0 +1,2691 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.service {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+
+/* .................................lorem.................................... */
+.lorem {
+  margin-top: 0px;
+  background: url('../assets/Images/newBanner.png');
+  height: 505px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+/* body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #d49664;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+} */
+
+/* Add other styles for your components */
+/* ... */
+
+/* Modal styles */
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.mainHed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.servHead h1 {
+  color: white;
+  padding-top: 130px;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* .mainHed{
+    color: white;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+} */
+.nowHom h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.DotNow1 h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.nowServ h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.DotNow2 h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.nowDesn h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #0fec16;
+  text-decoration-thickness: 3px;
+}
+
+.DotNow3 h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.nowHidn h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+
+/* ........................Arragement................................. */
+
+body {
+  margin: 0;
+}
+
+.vsc2 {
+
+  height: 68px;
+  width: 68px;
+  border-radius: 40px;
+  background-color: rgb(54, 54, 219);
+  color: white;
+  border: none;
+  position: absolute;
+  left: 560px;
+  top: 150px;
+}
+
+.vsc2:hover {
+  background-color: #0fec16;
+  color: blue;
+}
+
+/* .vscButton {
+    border-radius: 50px;
+    background-color: white;
+    color: white;
+    height: 58px;
+    width: 62px;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    margin-right: 349px;
+    background-color: rgb(44, 58, 217);
+    position: absolute;
+    left: 560px;
+    top:150px;
+    
+  }
+  .vsc2{
+    margin-top: 19px;
+  } */
+/* .vsc2{
+    height: 58px;
+    width: 58px;
+    border-radius: 20px;
+    background-color: rgb(54, 54, 219);
+    color: white;
+    border: none;
+    position: absolute;
+    left: 560px;
+    top:150px;
+  } */
+
+
+.Arrangement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 125px;
+  height: 435px;
+  position: relative;
+
+}
+
+.redImg img {
+  height: 346px;
+  width: 573px;
+}
+
+.FullGurd {
+  width: 35%;
+}
+
+.taglinez p {
+  color: grey;
+  padding-top: 1rem;
+}
+
+#btnsNew4z1 {
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgb(85, 81, 239);
+  color: white;
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  /* transition: 0.4s */
+  background-position: 100% 0;
+  transition: background-size 0.8s, background-position 0.8s;
+}
+
+.btn-get {
+  display: flex;
+  align-items: flex-end;
+}
+
+#btnsNew4z1:hover {
+  background-size: 100% 100%;
+  color: white;
+}
+
+
+.trusts {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.trusts h1 {
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.taglinez {
+  text-align: left;
+}
+
+
+
+/* ...........................works................................. */
+
+/* .vpn1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+} */
+
+.redImg img {
+  border-radius: 20px;
+}
+
+.Works {
+  text-align: left;
+  padding-left: 290px;
+  padding-right: 14rem;
+}
+
+.workPara{
+  padding-top: 1rem;
+}
+
+
+/* ..................................whatIs................................. */
+
+
+.whatIs {
+  padding-left: 270px;
+  margin: 20px 0px;
+  padding-right: 250px;
+}
+
+.plus1,
+.plus2,
+.plus3,
+.plus4 {
+  color: blue;
+}
+
+.arrows1,
+.arrows2,
+.arrows3,
+.arrows4 {
+  color: blue;
+}
+
+.arrow1,
+.arrow2,
+.arrow3,
+.arrow4,
+.arrow5 {
+  color: blue;
+}
+
+.whatIs h1 {
+  font-size: 30px;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.whatIs p {
+  text-align: left;
+}
+
+.accordion {
+  background-color: #f9f9f9;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+
+}
+
+.accordion.active,
+.accordion:hover {
+  background-color: #ccc;
+
+}
+
+.accordion {
+  margin-top: 30px;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+}
+
+.panel.show {
+  display: block;
+}
+
+/* ////////////////////////////////////////// */
+
+#step1 {
+  display: flex;
+  justify-content: left;
+
+}
+
+#step2 {
+  display: flex;
+  justify-content: left;
+
+}
+
+.pink-text {
+  font-family: 'Roboto', sans-serif;
+}
+
+#userDet3 {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#userDet1 {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+
+}
+
+#userDet2 {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#install {
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#ubuntu {
+  font-family: 'Roboto', sans-serif;
+}
+
+#pink {
+  color: rgb(239, 172, 229);
+  border: 1px solid rgb(255, 178, 178);
+  font-family: 'SFMono-Regular', monospace;
+}
+
+.panel {
+  width: 50%;
+
+}
+
+#Connections1 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#Connections2 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#Connections3 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#browse1 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#browse2 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#window {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#newNix {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+
+#vpnImage {
+  display: flex;
+  justify-content: left;
+  height: 450px;
+  padding-top: 15px;
+}
+
+#ConfigureVPN {
+  display: flex;
+  justify-content: left;
+
+}
+
+
+#fontSize1 {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#fontSize2 {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#fontSize3 {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#fontSize4 {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#files1 {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#files2 {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#files3 {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#files4 {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#Uname {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#Pname {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#nameNixvpn {
+  font-weight: bold;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+.vpn-connect-text{
+  display: flex;
+  justify-content: center;
+}
+
+#headCard {
+  font-size: 45px;
+  display: flex;
+  text-align: center;
+  padding-top: 80px;
+  /* padding-left: 70px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .............................empResults........................................ */
+
+.dist1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+
+}
+
+.dist2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+}
+
+.dist3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+}
+
+.dist4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+}
+
+.dist5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+}
+
+/* ........................Teamz................................... */
+
+
+.Teamz {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  /* background-color: rgb(98, 94, 241); */
+  background: url('../assets/Images/funfact_bg_img.png');
+  height: 530px;
+  padding-top: 120px;
+  background-position: center center;
+  margin: 85px 0px;
+}
+
+.Teamz::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6562F1;
+  /* Adjust the alpha (last value) to control the opacity */
+  z-index: -1;
+  /* Push the pseudo-element behind the image */
+  background-blend-mode: multiply;
+}
+
+.supportz {
+  border: 0px solid rgb(99, 96, 241);
+  background-color: transparent;
+  border-radius: 8px;
+  /* box-shadow: 0px 8px 16px 0px ; */
+  height: 290px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 59px 0px;
+}
+
+.supportz img {
+  padding-bottom: 10px;
+}
+
+.supportz h1 {
+  color: white;
+}
+
+.supportz p {
+  color: white;
+}
+
+
+.partnerz {
+  border: 0px solid rgb(99, 96, 241);
+  background-color: transparent;
+  border-radius: 8px;
+  /* box-shadow: 0px 8px 16px 0px ; */
+  height: 290px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 59px 0px;
+}
+
+.partnerz img {
+  padding-bottom: 10px;
+}
+
+.partnerz h1 {
+  color: white;
+}
+
+.partnerz P {
+  color: white;
+}
+
+
+
+.clientz {
+  border: 0px solid rgb(99, 96, 241);
+  background: transparent;
+  border-radius: 8px;
+  /* box-shadow: 0px 8px 16px 0px ; */
+  height: 290px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 59px 0px;
+}
+
+.clientz img {
+  padding-bottom: 10px;
+}
+
+.clientz h1 {
+  color: white;
+}
+
+.clientz P {
+  color: white;
+}
+
+
+
+.appz {
+  border: 0px solid rgb(99, 96, 241);
+  background-color: transparent;
+  border-radius: 8px;
+  /* box-shadow: 0px 8px 16px 0px ; */
+  height: 290px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 59px 0px;
+}
+
+.appz img {
+  padding-bottom: 10px;
+}
+
+.appz h1 {
+  color: white;
+}
+
+.appz P {
+  color: white;
+}
+
+
+
+/* ...............................pricing........................................ */
+
+body {
+  margin: 0px;
+}
+
+.home1z {
+  height: 720px;
+  background: url('../assets/Images/pricing_img.png');
+  background-position: center center;
+  margin-bottom: 0px;
+}
+
+.work1z {
+  color: black;
+}
+
+.paraSpeed1z {
+  color: black;
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.connect1z {
+  /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 21px;
+  margin-bottom: 200px;
+
+}
+
+.easy1z {
+  border: 0px solid white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px grey;
+  height: 445px;
+  width: 404px;
+  background-color: rgb(255, 255, 255);
+  background: transparent;
+  padding-top: 100px;
+
+}
+
+.easy1z h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.instant1z {
+  border: 0px solid white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px grey;
+  height: 445px;
+  width: 404px;
+  background-color: rgb(255, 255, 255);
+  background: transparent;
+  padding-top: 100px;
+
+}
+
+.instant1z h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.enjoy1z {
+  border: 0px solid white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px grey;
+  height: 445px;
+  width: 404px;
+  background-color: rgb(255, 255, 255);
+  background: transparent;
+  padding-top: 100px;
+}
+
+.enjoy1z h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.work1z h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  padding-top: 28px;
+}
+
+.money1z {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.money2z {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.money3z {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#rupee1z {
+  font-size: 50px;
+  color: rgb(85, 81, 239);
+}
+
+.easy1z:hover .money1z h5,
+.easy1z:hover .money1z #rupee1z,
+.easy1z:hover .money1z h6 {
+  color: #0fec16;
+}
+
+#rupee2z {
+  font-size: 50px;
+  color: rgb(85, 81, 239);
+}
+
+.instant1z:hover .money2z h5,
+.instant1z:hover .money2z #rupee2z,
+.instant1z:hover .money2z h6 {
+  color: #0fec16;
+}
+
+#rupee3z {
+  font-size: 50px;
+  color: rgb(85, 81, 239);
+}
+
+.enjoy1z:hover .money3z h5,
+.enjoy1z:hover .money3z #rupee3z,
+.enjoy1z:hover .money3z h6 {
+  color: #0fec16;
+}
+
+#btnsNew1z {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgb(85, 81, 239);
+  color: white;
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+}
+
+#btnsNew2z {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgb(85, 81, 239);
+  color: white;
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+}
+
+#btnsNew3z {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgb(85, 81, 239);
+  color: white;
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+}
+
+.cashIcon1 {
+  font-size: 34px;
+  padding-bottom: 23px;
+  color: rgb(85, 81, 239);
+}
+
+.cashIcon2 {
+  font-size: 34px;
+  padding-bottom: 23px;
+  color: rgb(85, 81, 239);
+}
+
+.cashIcon3 {
+  font-size: 34px;
+  padding-bottom: 23px;
+  color: rgb(85, 81, 239);
+}
+
+.moIcon1 {
+  color: rgb(85, 81, 239);
+  font-size: 14px;
+  padding-top: 23px;
+}
+
+.moIcon2 {
+  color: rgb(85, 81, 239);
+  font-size: 14px;
+  padding-top: 23px;
+}
+
+.moIcon3 {
+  color: rgb(85, 81, 239);
+  font-size: 14px;
+  padding-top: 23px;
+}
+
+.card-sub {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+}
+
+
+/* .................otherPageSpace........................... */
+
+body {
+  margin: 0px;
+}
+
+.otherPagesSpace {
+  height: 480px;
+  background-color: #6562F1;
+  /* Add the blue background color */
+  background-image: url('../assets/Images/footer_bg_elements_img-1.png');
+  background-size: cover;
+  /* Optional: Adjust background-size to cover the container */
+  background-repeat: no-repeat;
+  /* Optional: Adjust background-repeat behavior */
+  display: flex;
+  text-align: left;
+  padding: 120px 280px;
+  background-position: 63%;
+}
+
+.LogsSpace {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+
+
+}
+
+.LogsSpace h1 {
+  font-size: 29px;
+}
+
+.LogsSpace h5 {
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.premiumSpace {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  padding-left: 110px;
+}
+
+.premiumSpace h1 {
+  font-size: 29px;
+}
+
+.premiumSpace h5 {
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+
+/* .................final............................ */
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(13, 30, 103);
+}
+
+.regular {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  color: rgb(240, 251, 245);
+  font-size: 22px;
+  padding-left: 70px;
+}
+
+.done h1 {
+  font-size: 22px;
+  padding-top: 10px;
+  color: rgb(240, 251, 245);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-right: 70px;
+}
+
+/* @media(min-width:1280px){
+  .redImg img{
+    width: 500px;
+  }
+
+  .FullGurd{
+    width: 40%;
+  }
+
+  .Works{
+    padding-top: 2rem;
+  }
+} */
+
+
+@media (min-width:1281px){
+  .trusts h1 {
+    border: none;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+.Works {
+  text-align: left;
+  padding-left: 104px;
+  padding-right: 6rem;
+}
+.whatIs {
+  padding-left: 105px;
+  margin: 20px 0px;
+  padding-right: 115px;
+}
+.supportz{
+  height: 290px;
+    width: 250px;
+}
+.partnerz{
+  height: 290px;
+  width: 250px;
+}
+.clientz{
+  height: 290px;
+  width: 250px;
+}
+.appz{
+  height: 290px;
+  width: 250px;
+}
+
+.easy1z{
+  height: 445px;
+  width: 342px;
+  }
+  .instant1z{
+    height: 445px;
+    width: 342px;
+  }
+  .enjoy1z{
+    height: 445px;
+    width: 342px;
+  }
+}
+@media (min-width:1350px){
+  .Works {
+    text-align: left;
+    padding-left: 126px;
+    padding-right: 7rem;
+}
+.whatIs {
+  padding-left: 130px;
+  margin: 20px 0px;
+  padding-right: 125px;
+}
+
+}
+
+@media (min-width:1399px){
+  .supportz {
+    height: 290px;
+    width: 267px;
+}
+.partnerz{
+  height: 290px;
+  width: 267px;
+}
+.clientz{
+  height: 290px;
+    width: 267px;
+}
+.appz{
+  height: 290px;
+  width: 267px;
+}
+
+.easy1z {
+  height: 445px;
+  width: 373px;
+}
+.instant1z{
+  height: 445px;
+  width: 373px;
+}
+.enjoy1z{
+  height: 445px;
+  width: 373px;
+}
+}
+
+@media (min-width:1449px){
+  .Works {
+    text-align: left;
+    padding-left: 154px;
+    padding-right: 7rem;
+}
+.whatIs {
+  padding-left: 155px;
+  margin: 20px 0px;
+  padding-right: 125px;
+}
+}
+@media (min-width:1500px){
+  .Works {
+    text-align: left;
+    padding-left: 174px;
+    padding-right: 9rem;
+}
+.whatIs {
+  padding-left: 175px;
+  margin: 20px 0px;
+  padding-right: 162px;
+}
+}
+
+@media (min-width:1550px){
+  .supportz {
+    height: 290px;
+    width: 277px;
+}
+.partnerz{
+  height: 290px;
+  width: 277px;
+}
+.clientz{
+  height: 290px;
+    width: 277px;
+}
+.appz{
+  height: 290px;
+    width: 277px;
+}
+}
+
+@media (min-width:1600px){
+  .Works {
+    text-align: left;
+    padding-left: 208px;
+    padding-right: 11rem;
+}
+.whatIs {
+  padding-left: 208px;
+  margin: 20px 0px;
+  padding-right: 178px;
+}
+}
+
+@media (min-width:1670px){
+  .Works {
+    text-align: left;
+    padding-left: 228px;
+    padding-right: 11rem;
+}
+.whatIs {
+  padding-left: 227px;
+  margin: 20px 0px;
+  padding-right: 198px;
+}
+}
+
+@media (min-width:1685px){
+  .trusts h1 {
+   
+    font-size: 28px;
+    margin-top: 20px;
+}
+}
+
+@media (min-width:1750px){
+  .trusts h1 {
+    font-size: 28px;
+    margin-top: 30px;
+}
+.Works {
+  text-align: left;
+  padding-left: 256px;
+  padding-right: 13rem;
+}
+.whatIs {
+  padding-left: 257px;
+  margin: 20px 0px;
+  padding-right: 253px;
+}
+}
+
+@media (min-width:1800px){
+  .Works {
+    text-align: left;
+    padding-left: 273px;
+    padding-right: 15rem;
+}
+.whatIs {
+  padding-left: 287px;
+  margin: 20px 0px;
+  padding-right: 273px;
+}
+.Works {
+  text-align: left;
+  padding-left: 286px;
+  padding-right: 18rem;
+}
+}
+@media (min-width:1900px){
+  .Works {
+    text-align: left;
+    padding-left: 304px;
+    padding-right: 18rem;
+}
+.whatIs {
+  padding-left: 305px;
+  margin: 20px 0px;
+  padding-right: 273px;
+}
+}
+
+@media (max-width:1280px) {
+  .trusts h1 {
+    font-size: 30px;
+  }
+
+  .redImg img {
+    width: 430px;
+  }
+
+  .FullGurd {
+    width: 45%;
+  }
+
+  .Works {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .whatIs {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  #headCard {
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .work1z h1 {
+    padding-top: 30px;
+  }
+
+  .Teamz {
+    height: 530px;
+  }
+
+  .supportz {
+    width: 230px;
+  }
+
+  .partnerz {
+    width: 230px;
+  }
+
+  .clientz {
+    width: 230px;
+  }
+
+  .appz {
+    width: 230px;
+  }
+
+  .home1z {
+    height: 730px;
+  }
+
+  .easy1z {
+    width: 330px;
+    height: 445px;
+  }
+
+  .instant1z {
+    width: 330px;
+    height: 445px;
+  }
+
+  .enjoy1z {
+    width: 330px;
+    height: 445px;
+  }
+
+  .otherPagesSpace {
+    padding: 117px 90px;
+  }
+}
+
+@media (max-width:1200px) {
+  .Arrangement {
+    margin-top: 120px;
+  }
+
+  .easy1z {
+    width: 330px;
+    height: 445px;
+  }
+
+  .instant1z {
+    width: 330px;
+    height: 445px;
+  }
+
+  .enjoy1z {
+    width: 330px;
+    height: 445px;
+  }
+
+  .supportz {
+    width: 220px;
+  }
+
+  .partnerz {
+    width: 220px;
+  }
+
+  .clientz {
+    width: 220px;
+  }
+
+  .appz {
+    width: 220px;
+  }
+
+  .home1z {
+    height: 720px;
+  }
+}
+
+@media(max-width:1150px) {
+  .Arrangement {
+    gap: 25px;
+    margin-top: 122px;
+  }
+
+  .Works {
+    padding-right: 5rem;
+  }
+
+  .Teamz {
+    gap: 30px;
+  }
+
+  .easy1z {
+    width: 300px;
+    height: 450px;
+  }
+
+  .instant1z {
+    width: 300px;
+    height: 450px;
+  }
+
+  .enjoy1z {
+    width: 300px;
+    height: 450px;
+  }
+
+  .home1z {
+    height: 720px;
+  }
+
+  .otherPagesSpace {
+    padding: 117px 95px;
+  }
+}
+
+@media(max-width:1130px) {
+  .Arrangement {
+    height: 440px;
+  }
+
+  .redImg img {
+    width: 425px;
+    height: 350px;
+  }
+
+  .trusts {
+    margin-top: 15px;
+  }
+
+  .Teamz {
+    gap: 15px;
+  }
+
+  .supportz {
+    width: 230px;
+  }
+
+  .partnerz {
+    width: 230px;
+  }
+
+  .clientz {
+    width: 230px;
+  }
+
+  .appz {
+    width: 230px;
+  }
+
+  .home1z {
+    height: 725px;
+  }
+}
+
+@media(max-width:1100px) {
+  .Arrangement {
+    height: 445px;
+  }
+
+  .easy1z {
+    width: 300px;
+  }
+
+  .instant1z {
+    width: 300px;
+  }
+
+  .enjoy1z {
+    width: 300px;
+  }
+
+  .otherPagesSpace {
+    padding: 117px 90px;
+  }
+
+  .supportz {
+    width: 220px;
+  }
+
+  .partnerz {
+    width: 220px;
+  }
+
+  .clientz {
+    width: 220px;
+  }
+
+  .appz {
+    width: 220px;
+  }
+}
+
+@media(max-width:1070px) {
+  .otherPagesSpace {
+    padding: 117px 70px;
+  }
+
+  .redImg img {
+    width: 410px;
+    height: 320px;
+  }
+
+  .trusts {
+    margin-top: 10px;
+  }
+
+  .trusts h1 {
+    font-size: 25px;
+  }
+}
+
+@media(max-width:1050px) {
+  .Arrangement {
+    height: 430px;
+  }
+
+  .redImg img {
+    width: 440px;
+    height: 320px;
+  }
+
+  .FullGurd {
+    width: 42%;
+  }
+
+  .trusts {
+    margin-top: 10px;
+  }
+
+  .supportz {
+    width: 220px;
+  }
+
+  .partnerz {
+    width: 220px;
+  }
+
+  .clientz {
+    width: 220px;
+  }
+
+  .appz {
+    width: 220px;
+  }
+
+  .work1z h1 {
+    padding-top: 25px;
+  }
+
+  .home1z {
+    height: 720px;
+  }
+
+  .otherPagesSpace {
+    padding: 115px 70px;
+    height: 472px;
+  }
+}
+
+@media (max-width:1024px) {
+  .redImg img {
+    width: 400px;
+    height: 330px;
+  }
+
+  .trusts h1 {
+    font-size: 25px;
+  }
+
+  .Works {
+    padding-left: 5rem;
+    padding-top: 14px;
+  }
+
+  .whatIs {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  #headCard {
+    padding-left: 10px;
+  }
+
+  .Teamz {
+    height: 530px;
+  }
+
+  .supportz {
+    width: 200px;
+  }
+
+  .partnerz {
+    width: 200px;
+  }
+
+  .clientz {
+    width: 200px;
+  }
+
+  .appz {
+    width: 200px;
+  }
+
+  .home1z {
+    height: 730px;
+  }
+
+  .easy1z {
+    width: 280px;
+    height: 460px;
+  }
+
+  .instant1z {
+    width: 280px;
+    height: 460px;
+  }
+
+  .enjoy1z {
+    width: 280px;
+    height: 460px;
+  }
+
+  .otherPagesSpace {
+    padding: 117px 70px;
+    height: 475px;
+  }
+}
+
+@media(max-width:1000px) {
+  .easy1z {
+    width: 260px;
+    height: 460px;
+  }
+
+  .instant1z {
+    width: 260px;
+    height: 460px;
+  }
+
+  .enjoy1z {
+    width: 260px;
+    height: 460px;
+  }
+
+  .Teamz {
+    padding-top: 120px;
+  }
+
+  .otherPagesSpace {
+    padding: 117px 85px;
+    height: 480px;
+  }
+}
+
+@media(max-width:990px) {
+  .Arrangement {
+    height: 415px;
+  }
+
+  .redImg img {
+    height: 300px;
+  }
+
+  .FullGurd {
+    width: 25rem;
+    font-size: 13px;
+  }
+
+  .Teamz {
+    height: 532px;
+  }
+
+  .Works {
+    padding-top: 0px;
+  }
+
+  .home1z {
+    height: 750px;
+  }
+
+  .otherPagesSpace {
+    padding: 117px 80px;
+  }
+}
+
+@media(max-width:950px) {
+  .redImg img {
+    width: 360px;
+  }
+
+  .panel.show {
+    width: 90%;
+  }
+
+  #step2 {
+    width: 90%;
+  }
+
+  .work1z h1 {
+    padding-top: 30px;
+  }
+
+  .Teamz {
+    height: 530px;
+  }
+}
+
+@media(max-width:930px) {
+  .FullGurd {
+    width: 40%;
+  }
+
+  .trusts h1 {
+    font-size: 22px;
+  }
+}
+
+@media(max-width:900px) {
+  .Arrangement {
+    height: 392px;
+  }
+
+  .Teamz {
+    gap: 15px;
+  }
+
+  .supportz {
+    width: 180px;
+  }
+
+  .partnerz {
+    width: 180px;
+  }
+
+  .clientz {
+    width: 180px;
+  }
+
+  .appz {
+    width: 180px;
+  }
+
+  .home1z {
+    height: 710px;
+  }
+
+  .easy1z {
+    width: 250px;
+    height: 437px;
+  }
+
+  .instant1z {
+    width: 250px;
+    height: 437px;
+  }
+
+  .enjoy1z {
+    width: 250px;
+    height: 437px;
+  }
+
+  .otherPagesSpace {
+    padding: 117px 63px;
+    height: 475px;
+  }
+}
+
+@media(max-width:880px) {
+  .home1z {
+    height: 91rem;
+  }
+
+  .work1z h1 {
+    padding-top: 30px;
+  }
+
+  .connect1z {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .easy1z {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+}
+
+@media(max-width:860px) {
+  .Teamz {
+    gap: 60px;
+    height: 66rem;
+    padding-top: 120px;
+  }
+
+  .supportz {
+    width: 300px;
+    height: 310px;
+    padding: 85px;
+  }
+
+  .partnerz {
+    width: 300px;
+    height: 310px;
+    padding: 85px;
+  }
+
+  .clientz {
+    width: 300px;
+    height: 310px;
+    padding: 85px;
+  }
+
+  .appz {
+    width: 300px;
+    height: 310px;
+    padding: 85px;
+  }
+}
+
+@media (max-width:840px) {
+  .Arrangement {
+    display: flex;
+    flex-direction: row;
+    height: 580px;
+    margin-top: 120px;
+  }
+
+  .redImg img {
+    width: 500px;
+  }
+
+  .FullGurd {
+    width: 85%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .Works {
+    padding-top: 60px;
+  }
+
+  .regular {
+    padding-left: 20px;
+  }
+
+  .done h1 {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width:768px) {
+  .trusts h1 {
+    font-size: 20px;
+  }
+
+  .Arrangement {
+    margin-top: 120px;
+    height: 695px;
+    gap: 10px;
+  }
+
+  #step2 {
+    width: 100%;
+  }
+
+  .panel.show {
+    width: 90%;
+  }
+
+  .Works {
+    padding-left: 5rem;
+    padding-top: 5rem;
+  }
+
+  .whatIs {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  #headCard {
+    padding-right: 30px;
+  }
+
+  .Teamz {
+    height: 58rem;
+    gap: 20px;
+    padding-top: 100px;
+  }
+
+  .supportz {
+    width: 250px;
+    height: 300px;
+    padding: 66px;
+  }
+
+  .partnerz {
+    width: 250px;
+    height: 300px;
+    padding: 66px;
+  }
+
+  .clientz {
+    width: 250px;
+    height: 300px;
+    padding: 66px;
+  }
+
+  .appz {
+    width: 250px;
+    height: 300px;
+    padding: 66px;
+  }
+
+  .connect1z {
+    gap: 70px;
+  }
+
+  .home1z {
+    height: 97rem;
+  }
+
+  .easy1z {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .regular {
+    padding-left: 10px;
+  }
+
+  .done {
+    width: 45%;
+  }
+
+  .done h1 {
+    padding-right: 10px;
+  }
+
+  .otherPagesSpace {
+    padding: 117px 25px;
+    height: 480px;
+  }
+}
+
+@media(max-width:760px) {
+  .paraSpeed1z {
+    margin-left: 5rem;
+    margin-right: 3rem;
+    text-align: left;
+  }
+
+  .home1z {
+    height: 98rem;
+  }
+
+  .Teamz {
+    height: 59rem;
+    gap: 20px;
+    padding-top: 120px;
+  }
+
+  .Arrangement {
+    height: 690px;
+  }
+
+  .otherPagesSpace {
+    padding: 117px 80px;
+  }
+}
+
+@media(max-width:650px) {
+  .servHead h1 {
+    font-size: 45px;
+  }
+
+  .Teamz {
+    height: 60rem;
+    padding-top: 120px;
+  }
+
+  .whatIs {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media(max-width:630px) {
+  .redImg img {
+    width: 450px;
+  }
+}
+
+@media(max-width:580px) {
+  .Arrangement {
+    margin-top: 130px;
+  }
+
+  .redImg img {
+    width: 400px;
+  }
+
+  #vpnImage {
+    width: 90%;
+  }
+
+  #ConfigureVPN {
+    width: 95%;
+  }
+
+  .supportz {
+    width: 200px;
+    height: 300px;
+  }
+
+  .partnerz {
+    width: 200px;
+    height: 300px;
+  }
+
+  .clientz {
+    width: 200px;
+    height: 300px;
+  }
+
+  .appz {
+    width: 200px;
+    height: 300px;
+  }
+
+  .servHead h1 {
+    font-size: 40px;
+  }
+
+  .nowHom h4 {
+    font-size: 20px;
+  }
+
+  .DotNow1 h4 {
+    font-size: 20px;
+  }
+
+  .nowServ h4 {
+    font-size: 20px;
+  }
+
+  .DotNow2 h4 {
+    font-size: 20px;
+  }
+
+  .nowDesn h4 {
+    font-size: 20px;
+  }
+
+  .Works {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .otherPagesSpace {
+    padding: 120px 64px;
+  }
+}
+
+@media (max-width:562px) {
+  .otherPagesSpace {
+    padding: 120px 50px;
+  }
+}
+
+@media (max-width:540px) {
+  .servHead h1 {
+    font-size: 33px;
+  }
+
+  .nowHom h4 {
+    font-size: 15px;
+  }
+
+  .DotNow1 h4 {
+    font-size: 15px;
+  }
+
+  .nowServ h4 {
+    font-size: 15px;
+  }
+
+  .DotNow2 h4 {
+    font-size: 15px;
+  }
+
+  .nowDesn h4 {
+    font-size: 15px;
+  }
+
+  /* .otherPagesSpace {
+    padding: 120px 45px;
+  } */
+
+  .premiumSpace {
+    padding-left: 90px;
+  }
+}
+
+@media (max-width:520px) {
+  #headCard {
+    padding-right: 15px;
+  }
+
+  .premiumSpace {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width:480px) {
+  .redImg img {
+    width: 75%;
+  }
+
+  .premiumSpace {
+    padding-left: 30px;
+  }
+
+  .regular {
+    font-size: 18px;
+  }
+
+  .done h1 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:455px) {
+  .Teamz {
+    gap: 4rem;
+    height: 135rem;
+  }
+
+  .supportz {
+    width: 300px;
+    height: 300px;
+  }
+
+  .partnerz {
+    width: 300px;
+    height: 300px;
+  }
+
+  .clientz {
+    width: 300px;
+    height: 300px;
+  }
+
+  .appz {
+    width: 300px;
+    height: 300px;
+  }
+
+  .home1z {
+    height: 100rem;
+  }
+
+  .otherPagesSpace {
+    padding: 120px 35px;
+  }
+}
+
+@media(max-width:440px) {
+  .servHead h1 {
+    font-size: 28px;
+  }
+
+  .nowHom h4 {
+    font-size: 13px;
+  }
+
+  .DotNow1 h4 {
+    font-size: 13px;
+  }
+
+  .nowServ h4 {
+    font-size: 13px;
+  }
+
+  .DotNow2 h4 {
+    font-size: 13px;
+  }
+
+  .nowDesn h4 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width:425px) {
+  .service {
+    width: 100%;
+  }
+
+  .trusts h1 {
+    font-size: 20px;
+  }
+
+  .Arrangement {
+    margin-top: 90px;
+    height: 750px;
+    gap: 10px;
+  }
+
+  .redImg img {
+    width: 75%;
+    height: 300px;
+  }
+
+  .FullGurd {
+    width: 380px;
+  }
+
+  .Works{
+    padding-top: 0px;
+  }
+
+  #step2 {
+    width: 100%;
+  }
+
+  .panel.show {
+    width: 100%;
+  }
+
+  #vpnImage {
+    width: 100%;
+  }
+
+  #ConfigureVPN {
+    width: 100%;
+  }
+
+  .Works {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .whatIs {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #headCard {
+    padding-right: 25px;
+  }
+
+  .Teamz {
+    height: 105rem;
+    gap: 20px;
+    padding-top: 120px;
+  }
+
+  .supportz {
+    width: 250px;
+    height: 260px;
+  }
+
+  .partnerz {
+    width: 250px;
+    height: 260px;
+  }
+
+  .clientz {
+    width: 250px;
+    height: 260px;
+  }
+
+  .appz {
+    width: 250px;
+    height: 260px;
+  }
+
+  .connect1z {
+    gap: 70px;
+  }
+
+  .home1z {
+    height: 100rem;
+  }
+
+  .easy1z {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .otherPagesSpace {
+    padding: 120px 16px;
+    height: 490px;
+  }
+
+  .premiumSpace {
+    padding-left: 65px;
+  }
+
+  .LogsSpace h1 span {
+    display: none;
+  }
+
+  .premiumSpace h1 span {
+    display: none;
+  }
+
+  .regular {
+    padding-left: 10px;
+  }
+
+  .done {
+    width: 45%;
+  }
+
+  .done h1 {
+    padding-right: 10px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width:405px) {
+  .premiumSpace h1 {
+    font-size: 25px;
+  }
+
+  .LogsSpace h1 {
+    font-size: 25px;
+  }
+
+  .Works{
+    padding-top: 0px;
+  }
+}
+
+@media (max-width:375px) {
+  .service {
+    width: 100%;
+  }
+
+  .servHead h1 {
+    font-size: 25px;
+  }
+
+  .trusts h1 {
+    font-size: 20px;
+  }
+
+  .Arrangement {
+    margin-top: 90px;
+    height: 750px;
+    gap: 10px;
+  }
+
+  .redImg img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .FullGurd {
+    width: 300px;
+  }
+
+  #step2 {
+    width: 100%;
+  }
+
+  .panel.show {
+    width: 100%;
+  }
+
+  #vpnImage {
+    width: 100%;
+  }
+
+  #ConfigureVPN {
+    width: 100%;
+  }
+
+  .Works {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .whatIs {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #headCard {
+    padding-right: 20px;
+  }
+
+  .Teamz {
+    height: 105rem;
+    gap: 20px;
+    padding-top: 60px;
+  }
+
+  .supportz {
+    width: 250px;
+    height: 260px;
+  }
+
+  .partnerz {
+    width: 250px;
+    height: 260px;
+  }
+
+  .clientz {
+    width: 250px;
+    height: 260px;
+  }
+
+  .appz {
+    width: 250px;
+    height: 260px;
+  }
+
+  .connect1z {
+    gap: 70px;
+  }
+
+  .home1z {
+    height: 98rem;
+  }
+
+  .easy1z {
+    width: 330px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z {
+    width: 330px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z {
+    width: 330px;
+    height: 380px;
+    padding-top: 60px;
+  }
+  .paraSpeed1z{
+    margin-left:  10px;
+    margin-right: 10px;
+  }
+
+  .otherPagesSpace {
+    padding: 120px 15px;
+  }
+
+  .LogsSpace h1 span {
+    display: none;
+  }
+
+  .premiumSpace h1 span {
+    display: none;
+  }
+
+  .premiumSpace {
+    padding-left: 35px;
+  }
+
+  .regular {
+    padding-left: 10px;
+  }
+
+  .fb,
+  .tweet,
+  .inst,
+  .lkdn {
+    font-size: 15px;
+  }
+
+  .done {
+    width: 45%;
+  }
+
+  .done h1 {
+    padding-right: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:340px) {
+  .mainHed {
+    gap: 15px;
+  }
+
+  .easy1z {
+    width: 300px;
+  }
+
+  .instant1z {
+    width: 300px;
+  }
+
+  .enjoy1z {
+    width: 300px;
+  }
+  .paraSpeed1z{
+    margin-left:  10px;
+    margin-right: 10px;
+  }
+
+  .premiumSpace h1 {
+    font-size: 20px;
+  }
+
+  .LogsSpace h1 {
+    font-size: 20px;
+  }
+
+  .LogsSpace h5 {
+    font-size: 15px;
+  }
+
+  .premiumSpace h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:320px) {
+  .servHead h1 {
+    font-size: 35px;
+  }
+
+  #headCard {
+    padding-right: 25px;
+  }
+
+  .paraSpeed1z{
+    margin-left:  10px;
+    margin-right: 10px;
+  }
+
+  .easy1z {
+    width: 300px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z {
+    width: 300px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z {
+    width: 300px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .otherPagesSpace {
+    height: 450px;
+  }
+
+  .LogsSpace {
+    font-size: 25px;
+  }
+
+  .premiumSpace {
+    padding-left: 15px;
+  }
+
+  .premiumSpace h1 {
+    font-size: 20px;
+  }
+
+  .done h1 {
+    font-size: 12px;
+  }
+}
+
+
+@media only screen and (min-width: 1281px){
+
+}

@@ -1,0 +1,4519 @@
+body{
+    overflow-x: hidden;
+}
+.All{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.container-main{
+    max-width: 100% !important;
+    overflow: hidden !important;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.total {
+    background: url('../assets/Images/bg_shape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.head1 h1{
+    color: white;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+      
+      font-weight: bold;
+      
+      font-size: 70px;
+      padding-left: 108px;
+  
+  
+      line-height: 1.4;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      
+  }
+  .head2 h1{
+    color: white;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+      
+      font-weight: bold;
+      
+      font-size: 70px;
+      padding-right: 170px;
+      
+      line-height: 1.4;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  .para2 p{
+    color: white;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+      
+      font-weight: bold;
+      padding-right: 267px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+#Bbutton{
+    height: 50px;
+      width: 150px;
+      border-radius: 50px;
+      border: 2px solid white;
+      
+      color: rgb(21, 241, 9);
+      border: none;
+      font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  
+      background-color: white;
+    background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    
+    background-position: 100% 0;
+    transition: background-size 0.6s, background-position 0.6s;
+      
+  }
+  
+  #Bbutton:hover{
+    background-size: 100% 100%;
+    color: white;
+  }
+
+
+#imge {
+    padding-top: 244px;
+    padding-left: 80px;
+    overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  #parts1 {
+    position: absolute;
+    top: 331px;
+    left: 1075px;
+  }
+  #parts2 {
+    position: absolute;
+    top: 508px;
+    left: 901px;
+  }
+  #parts3 {
+    position: absolute;
+    top: 641px;
+    left: 990px;
+  }
+  #parts4 {
+    position: absolute;
+    top: 613px;
+    left: 1186px;
+  }
+  #parts5 {
+    position: absolute;
+    top: 629px;
+    left: 1356px;
+    height: 226px;
+    width: 220px;
+  }
+  #parts6{
+    position: absolute;
+    top: 506px;
+    left: 1488px;
+  }
+  #parts7{
+    position: absolute;
+    top: 420px;
+    left: 1430px;
+  }
+
+
+  /* .........................................how it works............................. */
+ .home{
+    height: 47rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+  
+  
+  .connect{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 46px;
+  }
+  
+  .easy{
+    border: 0px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+    height: 275px;
+    width: 401px;
+    cursor: pointer;
+    
+    background-image: radial-gradient(at center center, #5551EF 0%, #5551EF 100%);
+    
+    background-size: 100% 0;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    
+  }  
+  .easy:hover{
+    background-size: 100% 100%;
+    color: white;
+  }
+  
+  .easy img{
+    padding-top: 54px;
+    transition: transform 0.3s ease;
+    height: 131px;
+  }
+  .easy img:hover{
+    transform: translateX(-10px);
+    
+  }
+  .easy h1 {
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 59px;
+  }
+  
+  .instant{
+    border: 0px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+    height: 275px;
+    width: 401px;
+    cursor: pointer;
+  
+    background-image: radial-gradient(at center center, #5551EF 0%, #5551EF 100%);
+    background-size: 100% 0;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+  
+  }
+  .instant:hover{
+    background-size: 100% 100%;
+    color: white;
+  }
+  .instant img{
+    padding-top: 54px;
+    transition: transform 0.3s ease;
+    height: 131px;
+  }
+  .instant img:hover{
+    transform: translateX(-10px);
+  }
+  .instant h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+      font-weight: bold;
+      font-size: 28px;
+      padding-top: 59px;
+  }
+  .enjoy{
+    border: 0px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+    height: 275px;
+    width: 401px;
+    cursor: pointer;
+  
+    background-image: radial-gradient(at center center, #5551EF 0%, #5551EF 100%);
+    background-size: 100% 0;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+  }
+  .enjoy:hover{
+    background-size: 100% 100%;
+    color: white;
+  }
+  .enjoy img{
+    padding-top: 54px;
+    transition: transform 0.3s ease;
+    height: 131px;
+  }
+  .enjoy img:hover{
+    transform: translateX(-10px);
+  }
+  .enjoy h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+      font-weight: bold;
+      font-size: 27px;
+      padding-top: 59px;
+  }
+  .work h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+   
+  }
+  .paraSpeed p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+  }
+
+  /* ..................................solutions.......................................... */
+  .solutions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 602px;
+    background: url('../assets/Images/solution.png');
+    background-color: rgb(249, 245, 245);
+  }
+  .sect{
+    margin-bottom: 2%;
+    
+  }
+  
+  .nowimg1 {
+    border-radius: 47px;
+    background-color: rgb(234,233,252);
+    height: 90px;
+    width: 97px;
+  }
+  .nowimg1 img {
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+  .nowimg2 {
+    border-radius: 47px;
+    background-color: rgb(227,249,229);
+    height: 90px;
+    width: 97px;
+  }
+  .nowimg2 img {
+    height: 50px;
+    margin-top: 20px;
+  }
+  .secure1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -24px;
+  }
+  
+  .secure2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -24px;
+  }
+  
+  #computer {
+    position: absolute;
+    left: 407px;
+    top: 1737px;
+    height: 425px;
+  }
+  
+  
+  
+  #men {
+    position: absolute;
+    left: 410px;
+    top: 1849px;
+    transition: transform 0.3s ease;
+    height: 269px;
+  }
+  
+  #men:hover {
+    transform: translateX(10px);
+  }
+  
+  #women {
+    position: absolute;
+    left: 710px;
+    top: 1852px;
+    transition: transform 0.3s ease;
+    height: 251px;
+  }
+  
+  #women:hover {
+    transform: translateX(-10px);
+  }
+  
+  .simple1 h1 {
+    margin-left: -71px;
+    padding-top: 50px;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+  }
+  
+  .simple2 h1 {
+    margin-left: -219px;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+  }
+  
+  .user1 h1 {
+    font-size: 26px;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+  }
+  .user1 p{
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  
+  .user2 h1 {
+    font-size: 26px;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+  }
+  .user2 p{
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  #rare{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* .................................features..................................... */
+  .next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1103px;
+  }
+  
+  .heading-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    margin-top: 104px;
+    padding-bottom: 14px;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .fast,
+  .cyber,
+  .virtual,
+  .nixvpn,
+  .hotspot,
+  .aes {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    border-radius: 5px;
+    border: 0px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+    height: 340px;
+    width: 183px;
+  
+    background-image: radial-gradient(at center center, #5551EF 0%, #5551EF 100%);
+    background-size: 100% 0;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+  }
+  .fast:hover,
+  .cyber:hover,
+  .virtual:hover,
+  .nixvpn:hover,
+  .hotspot:hover,
+  .aes:hover{
+    background-size: 100% 100%;
+    color: white !important;
+  }
+  
+  
+  .fast img,
+  .cyber img,
+  .virtual img,
+  .nixvpn img,
+  .hotspot img,
+  .aes img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  .fast img:hover,
+  .cyber img:hover,
+  .virtual img:hover,
+  .nixvpn img:hover,
+  .hotspot img:hover,
+  .aes img:hover {
+    transform: translateX(-10px);
+  }
+  
+  .fast h1,
+  .cyber h1,
+  .virtual h1,
+  .nixvpn h1,
+  .hotspot h1,
+  .aes h1 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+  }
+  
+  .fast p,
+  .cyber p,
+  .virtual p,
+  .nixvpn p,
+  .hotspot p,
+  .aes p {
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+  #featureP{
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+  /* .......................pricing....................................... */
+  .headTime2{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+  }
+  .headTime3{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+  }
+  .home1{
+    height: 867px;
+    background-color: rgb(89,85,239);
+  }
+  #save1{
+    font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+  }
+  #save2{
+    font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+  }
+  #save2{
+    font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+  }
+  #get1{
+    font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+  }
+  #get2{
+    font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+  }
+  #get3{
+    font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+  }
+  #bulid1{
+    
+     font-family: 'Roboto', sans-serif;
+  }
+  #bulid2{
+   
+     font-family: 'Roboto', sans-serif;
+  }
+  #bulid3{
+    
+     font-family: 'Roboto', sans-serif;
+  }
+  .work1{
+    color: white;
+  }
+  .paraSpeed1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .connect1{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ; */
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 31px;
+   
+  }
+  
+  .easy1{
+    border: 0px solid black;
+    border-radius: 8px;
+    /* box-shadow: 0px 8px 16px 0px rgb(194, 183, 183); */
+    height: 445px;
+    width: 404px;
+    background-color: white;
+  
+    padding-top: 100px;
+    
+  }  
+  
+  .easy1 h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  
+  .instant1{
+    border: 0px solid black;
+    border-radius: 8px;
+    /* box-shadow: 0px 8px 16px 0px rgb(194, 183, 183); */
+    height: 445px;
+    width: 404px;
+    background-color: white;
+    padding-top: 100px;
+  
+  }
+  
+  .instant1 h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  .enjoy1{
+    border: 0px solid black;
+    border-radius: 8px;
+    /* box-shadow: 0px 8px 16px 0px rgb(194, 183, 183); */
+    height: 445px;
+    width: 404px;
+    background-color: white;
+    padding-top: 100px;
+  }
+  
+  .enjoy1 h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  .work1 h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+      font-weight: bold;
+      padding-top: 129px;
+      margin-bottom: 20px;
+  }
+  .money1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .money2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .money3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #rupee1{
+    font-size: 50px;
+    color: rgb(85,81,239);
+    font-weight: normal;
+  }
+  
+  #rupee2{
+    font-size: 50px;
+    color: rgb(85,81,239);
+    font-weight: normal;
+  }
+  
+  #rupee3{
+    font-size: 50px;
+    color: rgb(85,81,239);
+    font-weight: normal;
+  }
+  .easy1:hover .money1 h5,
+  .easy1:hover .money1 #rupee1,
+  .easy1:hover .money1 h6 {
+    color: #0fec16;
+  }
+  .instant1:hover .money2 h5,
+  .instant1:hover .money2 #rupee2,
+  .instant1:hover .money2 h6 {
+    color: #0fec16;
+  }
+  .enjoy1:hover .money3 h5,
+  .enjoy1:hover .money3 #rupee3,
+  .enjoy1:hover .money3 h6 {
+    color: #0fec16;
+  }
+  
+  
+  #btnsNew1{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid white;
+    /* background-color: rgb(22, 22, 189); */
+    color: white;
+    border: none;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  
+    background-color: rgb(22,22,189);
+    background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    /* transition: 0.4s */
+    background-position: 100% 0;
+    transition: background-size 0.6s, background-position 0.6s;
+    
+  
+  
+  }
+  #btnsNew1:hover{
+    background-size: 100% 100%;
+   
+  }
+  
+  
+  #btnsNew2{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgb(22, 22, 189);
+    color: white;
+    border: none;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  
+    background-color: rgb(22,22,189);
+    background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    /* transition: 0.4s */
+    background-position: 100% 0;
+    transition: background-size 0.6s, background-position 0.6s;
+  }
+  #btnsNew2:hover{
+    background-size: 100% 100%;
+  }
+  
+  #btnsNew3{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgb(22, 22, 189);
+    color: white;
+    border: none;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  
+    background-color: rgb(22,22,189);
+    background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    /* transition: 0.4s */
+    background-position: 100% 0;
+    transition: background-size 0.6s, background-position 0.6s;
+  }
+  #btnsNew3:hover{
+    background-size: 100% 100%;
+  }
+    
+  .moneyIcon1{
+    font-size: 34px;
+    padding-bottom: 23px;
+    color: rgb(85,81,239);
+    font-family: 'Roboto', sans-serif;
+  }
+  .moneyIcon2{
+    font-size: 34px;
+    padding-bottom: 23px;
+    color: rgb(85,81,239);
+    font-family: 'Roboto', sans-serif;
+  }
+  .moneyIcon3{
+    font-size: 34px;
+    padding-bottom: 23px;
+    color: rgb(85,81,239);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .mv1{
+    color: rgb(85,81,239);
+    font-size: 14px;
+    padding-top: 23px;
+  }
+  .mv2{
+    color: rgb(85,81,239);
+    font-size: 14px;
+    padding-top: 23px;
+  }
+  .mv3{
+    color: rgb(85,81,239);
+    font-size: 14px;
+    padding-top: 23px;
+  }
+  .mo1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  }
+  .mo2{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  }
+  .mo3{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  }
+  .headTime1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+  }
+
+  /* .........................service team............................... */
+  .homes2{
+  height: 800px;
+  background: url('../assets/Images/services_team.png');
+  background-position: center center;
+}
+.paraSpeeds2{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+}
+
+.connects2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 43px;
+}
+
+.easys2{
+  border: 0px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+  height: 412px;
+  width: 401px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-image: radial-gradient(at center center, #5551EF 0%, #5551EF 100%);
+  background-size: 100% 0;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}  
+.easys2:hover{
+  background-size: 100% 100%;
+  /* color: white !important; */
+}
+.easys2 img{
+  
+  border-radius: 87px;
+}
+.easys2 h1{
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+.easys2 p{
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: normal;
+}
+.instants2 p{
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: normal;
+}
+.enjoys2 p{
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: normal;
+}
+
+.instants2{
+  border: 0px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+  height: 412px;
+  width: 401px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: radial-gradient(at center center, #5551EF 0%, #5551EF 100%);
+  background-size: 100% 0;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+.instants2:hover{
+  background-size: 100% 100%;
+  /* color: white !important; */
+}
+
+.instants2 h1{
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+.instants2 img{
+  
+  border-radius: 87px;
+}
+.enjoys2{
+  border: 0px solid black;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+  height: 412px;
+  width: 401px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-image: radial-gradient(at center center, #5551EF 0%, #5551EF 100%);
+  background-size: 100% 0;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+.enjoys2:hover{
+  background-size: 100% 100%;
+  /* color: white !important; */
+}
+
+.enjoys2 h1{
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+.enjoys2 img{
+  border-radius: 87px;
+}
+.works2 h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  padding-top: 111px;
+}
+
+
+
+.icons1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.icons2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  
+}
+.icons3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.driblleIcon1{
+  color: blue;
+  border-radius: 14px;
+  height: 25px;
+  width: 26px;
+  background-color:rgb(238,237,253);
+}
+/* .driblleIcon1:hover{
+  background-color: #18ec09;
+} */
+
+.driblleIcon2{
+  color: blue;
+  border-radius: 14px;
+  height: 25px;
+  width: 26px;
+  background-color: rgb(238,237,253);
+}
+.driblleIcon3{
+  color: blue;
+  border-radius: 14px;
+  height: 25px;
+  width: 26px;
+  background-color: rgb(238,237,253);
+}
+.twitterIcon1{
+  color: blue;
+  border-radius: 14px;
+  height: 25px;
+  width: 26px;
+  background-color: rgb(238,237,253);
+}
+.twitterIcon2{
+  color: blue;
+  border-radius: 14px;
+  height: 25px;
+  width: 26px;
+  background-color: rgb(238,237,253);
+}
+.twitterIcon3{
+  color: blue;
+  border-radius: 14px;
+  height: 25px;
+  width: 26px;
+  background-color: rgb(238,237,253);
+}
+.lindinIcon1{
+  color: blue;
+  border-radius: 14px;
+  height: 25px;
+  width: 26px;
+  background-color: rgb(238,237,253);
+}
+.lindinIcon2{
+  color: blue;
+  border-radius: 14px;
+  height: 25px;
+  width: 26px;
+  background-color: rgb(238,237,253);
+}
+.lindinIcon3{
+  color: blue;
+  border-radius: 14px;
+  height: 25px;
+  width: 26px;
+  background-color: rgb(238,237,253);
+}
+
+
+
+
+
+
+/* Change the color of text and icons to white on hover inside easys2 */
+.easys2:hover h1,
+.easys2:hover p,
+.easys2:hover .icons1,
+.easys2:hover .driblleIcon1,
+.easys2:hover .twitterIcon1,
+.easys2:hover .lindinIcon1 {
+  color: white;
+  
+}
+.easys2:hover .driblleIcon1:hover{
+  background-color: #18ec09;
+}
+.easys2:hover .twitterIcon1:hover{
+  background-color: #18ec09;
+}
+.easys2:hover .lindinIcon1:hover{
+  background-color: #18ec09;
+}
+
+.instants2:hover .driblleIcon2:hover{
+  background-color: #18ec09;
+}
+.instants2:hover .twitterIcon2:hover{
+  background-color: #18ec09;
+}
+.instants2:hover .lindinIcon2:hover{
+  background-color: #18ec09;
+}
+
+.enjoys2:hover .driblleIcon3:hover{
+  background-color: #18ec09;
+}
+.enjoys2:hover .twitterIcon3:hover{
+  background-color: #18ec09;
+}
+.enjoys2:hover .lindinIcon3:hover{
+  background-color: #18ec09;
+}
+/* Change the color of text and icons to white on hover inside instants2 */
+.instants2:hover h1,
+.instants2:hover p,
+.instants2:hover .icons2,
+.instants2:hover .driblleIcon2,
+.instants2:hover .twitterIcon2,
+.instants2:hover .lindinIcon2 {
+  color: white;
+}
+
+/* Change the color of text and icons to white on hover inside enjoys2 */
+.enjoys2:hover h1,
+.enjoys2:hover p,
+.enjoys2:hover .icons3,
+.enjoys2:hover .driblleIcon3,
+.enjoys2:hover .twitterIcon3,
+.enjoys2:hover .lindinIcon3 {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Change the background color of icons when the hover effect happens inside easys2 */
+.easys2:hover .driblleIcon1,
+.easys2:hover .driblleIcon2,
+.easys2:hover .driblleIcon3,
+.easys2:hover .twitterIcon1,
+.easys2:hover .twitterIcon2,
+.easys2:hover .twitterIcon3,
+.easys2:hover .lindinIcon1,
+.easys2:hover .lindinIcon2,
+.easys2:hover .lindinIcon3 {
+  background-color: rgb(115, 94, 224);
+}
+
+/* Change the background color of icons when the hover effect happens inside instants2 */
+.instants2:hover .driblleIcon1,
+.instants2:hover .driblleIcon2,
+.instants2:hover .driblleIcon3,
+.instants2:hover .twitterIcon1,
+.instants2:hover .twitterIcon2,
+.instants2:hover .twitterIcon3,
+.instants2:hover .lindinIcon1,
+.instants2:hover .lindinIcon2,
+.instants2:hover .lindinIcon3 {
+  background-color: rgb(115, 94, 224);
+}
+
+/* Change the background color of icons when the hover effect happens inside enjoys2 */
+.enjoys2:hover .driblleIcon1,
+.enjoys2:hover .driblleIcon2,
+.enjoys2:hover .driblleIcon3,
+.enjoys2:hover .twitterIcon1,
+.enjoys2:hover .twitterIcon2,
+.enjoys2:hover .twitterIcon3,
+.enjoys2:hover .lindinIcon1,
+.enjoys2:hover .lindinIcon2,
+.enjoys2:hover .lindinIcon3 {
+  background-color: rgb(115, 94, 224);
+}
+
+.customers {
+    height: 398px;
+    background-image: url('../assets/Images/feedback.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+  }
+  .co h4{
+    font-size: 20px;
+    color: #5551EF;
+  }
+  .chief h4{
+    font-size: 20px;
+    color: #5551EF;
+  }
+  .titleHead h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+   font-weight: bold;
+  }
+  .paraHead p{
+   
+  font-family: 'Roboto', sans-serif;
+  }
+  .matia{
+    border: 0px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+    height: 290px;
+    width: 598px;
+  }
+  .rock{
+    border: 0px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+    height: 290px;
+    width: 598px;
+  }
+  .feedback{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+  }
+  .things1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .things2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .parff1 p{
+    padding-top: 30px;
+  }
+  .paraWatch1 {
+    text-align: left;
+    padding-left: 44px;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .paraWatch2 {
+    text-align: left;
+    padding-left: 44px;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .blk{
+    font-family: 'Roboto', sans-serif;
+   font-weight: bolder;
+  }
+  .horrow{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+  }
+  .chief h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+  }
+  .co{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+  }
+  .resls3{
+    color: rgb(255,214,67);
+  }
+  .resls6{
+    color: rgb(255,214,67);
+  }
+  
+  .resls1 img{
+    border-radius: 50px;
+  }
+  .resls4 img{
+    border-radius: 50px;
+  }
+
+  /* ........................latest.............................................. */
+  .homeOne{
+    height: 856px;
+    
+    background: url('../assets/Images/Latest_news_bg_img.png');
+    background-position: center center;
+  }
+  .paraSpeedOne{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+  }
+  
+  .connectOne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .easyOne{
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+    height: 450px;
+    width: 401px;
+    position: absolute;
+  
+  }  
+  /* .easyOne img{
+    padding-top: 54px;
+  } */
+  
+  .imageOne1 img{
+    height: 221px;
+    width: 100%;
+  }
+  .hedOne1 p{
+    font-family: 'Roboto', sans-serif;
+  }
+  #readIt1{
+    border: none;
+    color: blue;
+    background-color: transparent;
+    position: absolute;
+    left: 25px;
+    top: 393px;
+    font-family: 'Roboto', sans-serif;
+  }
+  #readIt1:hover{
+    color: rgb(17, 222, 17);
+  }
+  #july1{
+    height: 45px;
+    width: 105px;
+    border-radius: 50px;
+    border: 2px solid rgb(85,81,239);
+    background-color: rgb(85,81,239);
+    color: white;
+    border: none;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 33px;
+    top: 199px;
+  }
+  
+  .easyOne h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .easyOne p{
+    text-align: left;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  .instantOne{
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+    height: 450px;
+    width: 401px;
+    position: relative;
+  
+  }
+  
+  .imageOne2 img{
+    height: 221px;
+    width: 100%;
+  }
+  
+  #readIt2{
+    border: none;
+    color: blue;
+    background-color: transparent;
+    position: absolute;
+    left: 25px;
+    top: 393px;
+    font-family: 'Roboto', sans-serif;
+  }
+  #readIt2:hover{
+    color: rgb(17, 222, 17);
+  }
+  
+   
+  
+  #july2{
+    height: 45px;
+    width: 105px;
+    border-radius: 50px;
+    border: 2px solid rgb(85,81,239);
+    background-color: rgb(85,81,239);
+    color: white;
+    border: none;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 33px;
+    top: 199px;
+  }
+  
+  /* .instantOne img{
+    padding-top: 54px;
+    
+  } */
+  .instantOne h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .instantOne p{
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+  .enjoyOne{
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgb(194, 183, 183);
+    height: 450px;
+    width: 401px;
+    background: url('../assets/Images/bg_shape.png');
+    background-position: center center;
+  }
+  
+  /* .enjoyOne img{
+    padding-top: 54px;
+  } */
+  .enjoyOne h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+    padding-top: 30px;
+    margin-top: 40px;
+  }
+  .enjoyOne p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .workOne h1{
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    padding-top: 129px;
+  }
+  
+  
+  
+  #readIt3{
+   margin-top: 20px;
+   height: 60px;
+   width: 303px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(21, 241, 9);
+    border: none;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  
+    background-color: white;
+    background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    /* transition: 0.4s */
+    background-position: 100% 0;
+    transition: background-size 0.6s, background-position 0.6s;
+  }
+  #readIt3:hover{
+    background-size: 100% 100%;
+    color: white;
+  }
+  .emails input{
+    border: none;
+    height: 60px;
+    width: 303px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(75,76,151);
+    text-align: center;
+  }
+  .emails input:focus{
+    outline: none;
+    
+  }
+  #accept{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .emails input[type="email"]::placeholder {
+    text-align: center;
+    color: white;
+  }
+
+  
+  /* .....................otherPages................................................. */
+  .otherPages{
+    height: 499px;
+    
+    background: url('../assets/Images/bg_shape.png');
+    
+    display: flex;
+    text-align: left;
+    padding: 120px 310px;
+    background-position: center center;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .Logs{
+    color: white;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    
+  
+  }
+  .Logs h1{
+    font-size: 33px;
+  }
+  .Logs h5{
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+  .premium{
+    color: white;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
+  }
+  .premium h1{
+    font-size: 33px;
+  }
+  .premium h5{
+    font-size: 18px;
+    margin: 20px 0px;
+  }
+
+  
+  
+   @media only screen and (max-width: 600px){
+
+    .head1 h1 {
+        font-size: 50px;
+        position: absolute;
+        right: 5rem;
+        top: 7rem;
+        font-size: 51px;
+    }
+    
+    .head2 h1 {
+        font-size: 50px;
+        position: absolute;
+        right: 7rem;
+        top: 11rem;
+        font-size: 52px;
+    }
+    .para2{
+        font-size: 50px;
+        position: absolute;
+        right: 7rem;
+        top: 11rem;
+        font-size: 51px;
+    }
+    .para2 {
+        font-size: 50px;
+        position: absolute;
+        right: -2rem;
+        top: 17rem;
+        font-size: 20px;
+    }
+    #Bbutton {
+        position: absolute;
+        right: 24rem;
+        top: 20rem;
+    }
+
+
+    #imge {
+        height: 628px;
+        position: absolute;
+        top: 9rem;
+        left: 0rem;
+    }
+
+    #parts1,#parts2,#parts3,#parts4,#parts5,#parts6,#parts7{
+        display: none;
+    }
+    #men,#women{
+        display: none;
+    }
+    
+    .home{
+        height: 78rem
+    }
+    #computer {
+      position: absolute;
+      left: 157px;
+      top: 1765px;
+      height: 289px;
+  }
+    
+    .solutions {
+        height: 902px;
+        background-position: center center;
+    }
+    .sect {
+        margin-top: 52%;
+        margin-right: 24px;
+    }
+    .simple2 h1 {
+        margin-left: 0px;
+    }
+    .simple1 h1{
+        margin-left: 0px;
+    }
+    #computer {
+        left: 166px;
+        top: 137rem;
+        height: 304px;
+    }
+    .easy {
+      height: 275px;
+      width: 478px;
+  }
+  .instant{
+    height: 275px;
+    width: 478px;
+  }
+  .enjoy{
+    height: 275px;
+    width: 478px;
+  }
+
+  .easy1{
+    height: 445px;
+    width: 478px;
+  }
+  .instant1{
+    height: 445px;
+    width: 478px;
+  }
+  .enjoy1{
+    height: 445px;
+    width: 478px;
+  }
+
+  .easys2{
+    width: 478px;
+  }
+  .instants2{
+    width: 478px;
+  }
+  .enjoys2{
+    width: 478px;
+  }
+  .enjoyOne{
+    width: 478px;
+  }
+
+
+    /* ...................features.............................. */
+    .fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+        flex-basis: calc(81.33% - 4px);
+       
+        height: 340px;
+        width: 386px;
+        
+    }
+    .features-container {
+        
+        gap: 59px;
+    }
+
+    .next {
+        height: 2685px;
+    }
+    .home1 {
+        height: 1777px;
+        background-color: rgb(89,85,239);
+    }
+    .homes2 {
+      height: 1370px;
+    }
+    .workOne h1 {
+        
+        padding-top: 272px;
+    }
+    .homeOne {
+        height: 948px;
+        
+    }
+/* 
+    .................otherPages........................... */
+
+    .otherPages {
+      padding: 120px 82px;
+  }
+    .container-main{
+        position: relative;
+    }
+
+   }
+
+
+   @media only screen and (max-width: 550px){
+    .head1 h1 {
+      font-size: 50px;
+      position: absolute;
+      right: 3rem;
+      top: 7rem;
+      font-size: 51px;
+  }
+  .head2 h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 5rem;
+    top: 11rem;
+    font-size: 52px;
+}
+.para2 p {
+  
+  padding-right: 244px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#Bbutton {
+  position: absolute;
+  right: 22rem;
+  top: 20rem;
+}
+
+.easy {
+  height: 275px;
+  width: 449px;
+}
+.instant{
+  height: 275px;
+  width: 449px;
+}
+.enjoy{
+height: 275px;
+width: 449px;
+}
+
+.easy1{
+height: 445px;
+width: 449px;
+}
+.instant1{
+height: 445px;
+width: 449px;
+}
+.enjoy1{
+height: 445px;
+width: 449px;
+}
+
+.easys2{
+  width: 449px;
+}
+.instants2{
+  width: 449px;
+}
+.enjoys2{
+  width: 449px;
+}
+.enjoyOne{
+  width: 449px;
+}
+
+
+.otherPages {
+  padding: 120px 84px;
+}
+.Logs h1 {
+  font-size: 28px;
+}
+.premium h1 {
+  font-size: 28px;
+}
+
+  }
+  @media only screen and (max-width: 522px){
+    .matia {
+      
+      height: 290px;
+      width: 476px;
+  }
+  .rock {
+      
+    height: 290px;
+    width: 476px;
+}
+#computer {
+  left: 115px;
+  top: 137rem;
+  height: 304px;
+}
+.sect {
+  margin-top: 65%;
+  margin-right: 24px;
+}
+
+  
+  .paraWatch1 {
+    text-align: left;
+    padding-left: 27px;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.paraWatch2 {
+  text-align: left;
+  padding-left: 27px;
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.easy {
+  height: 275px;
+  width: 422px;
+}
+.instant{
+  height: 275px;
+  width: 422px;
+}
+.enjoy{
+height: 275px;
+width: 422px;
+}
+
+.easy1{
+height: 445px;
+width: 422px;
+}
+.instant1{
+height: 445px;
+width: 422px;
+}
+.enjoy1{
+height: 445px;
+width: 422px;
+}
+
+.easys2{
+  width: 422px;
+}
+.instants2{
+  width: 422px;
+}
+.enjoys2{
+  width: 422px;
+}
+.enjoyOne{
+  width: 422px;
+}
+.heading {
+  margin-top: 104px;
+  padding-bottom: 14px;
+  
+  font-size: 29.3px;
+}
+#rare {
+  
+  font-size: 14px;
+}
+
+
+    .otherPages {
+      padding: 120px 98px;
+  }
+    .Logs h5 {
+      font-size: 16px;
+      margin: 20px 0px;
+  }
+  .Logs h1 {
+    font-size: 24px;
+}
+  .premium h5 {
+    font-size: 16px;
+    margin: 20px 0px;
+}
+.premium h1 {
+  font-size: 24px;
+}
+  }
+
+  @media only screen and (max-width: 504px){
+    .head1 h1 {
+      font-size: 50px;
+      position: absolute;
+      right: 25px;
+      top: 7rem;
+      font-size: 51px;
+  }
+  .head2 h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 51px;
+    top: 11rem;
+    font-size: 52px;
+}
+.para2 p {
+  padding-right: 216px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#Bbutton {
+  position: absolute;
+  right: 321px;
+  top: 20rem;
+}
+  }
+
+  @media only screen and (max-width: 500px){
+    .head1 h1 {
+      font-size: 50px;
+      right: 58px;
+      top: 7rem;
+      font-size: 44px;
+  }
+  .head2 h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 63px;
+    top: 11rem;
+    font-size: 44px;
+}
+.para2 p {
+  padding-right: 191px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#Bbutton {
+  position: absolute;
+  right: 299px;
+  top: 20rem;
+}
+#computer {
+  left: 113px;
+  top: 134rem;
+  height: 304px;
+}
+.simple1 h1 {
+  margin-left: 46px;
+}
+#rare {
+  font-size: 15px;
+}
+
+
+.nowimg1 {
+  border-radius: 47px;
+  background-color: rgb(234,233,252);
+  height: 66px;
+  width: 69px;
+  margin-left: 20px;
+}
+.nowimg2 {
+  border-radius: 47px;
+  background-color: rgb(234,233,252);
+  height: 66px;
+  width: 69px;
+  margin-left: 20px;
+}
+.nowimg1 img {
+  height: 35px;
+  margin-top: 15px;
+}
+.nowimg2 img {
+  height: 35px;
+  margin-top: 15px;
+}
+.heading {
+  margin-top: 104px;
+  padding-bottom: 14px;
+ 
+  font-size: 33px;
+}
+.matia {
+ 
+  height: 290px;
+  width: 453px;
+}
+.rock {
+  height: 290px;
+  width: 453px;
+}
+.paraWatch1 {
+
+  padding-left: 23px;
+  padding-top: 50px;
+  
+}
+.paraWatch2 {
+
+  padding-left: 23px;
+  padding-top: 50px;
+ 
+}
+
+.easy {
+  height: 275px;
+  width: 398px;
+}
+.instant{
+  height: 275px;
+  width: 398px;
+}
+.enjoy{
+height: 275px;
+width: 398px;
+}
+
+.easy1{
+height: 445px;
+width: 398px;
+}
+.instant1{
+height: 445px;
+width: 398px;
+}
+.enjoy1{
+height: 445px;
+width: 398px;
+}
+
+.easys2{
+  width: 398px;
+}
+.instants2{
+  width: 398px;
+}
+.enjoys2{
+  width: 398px;
+}
+.enjoyOne{
+  width: 398px;
+}
+
+.otherPages {
+  padding: 120px 59px;
+}
+
+  }
+
+  @media only screen and (max-width: 460px){
+    .paraSpeed p {
+      font-size: 14px;
+  }
+  .easy h1 {
+    
+    font-size: 25px;
+    padding-top: 59px;
+}
+.instant h1{
+  font-size: 25px;
+    padding-top: 59px;
+}
+.enjoy h1{
+  font-size: 24px;
+  padding-top: 59px;
+}
+#computer {
+  left: 103px;
+  top: 135rem;
+  height: 304px;
+}
+#rare {
+  font-size: 13px;
+}
+.sect {
+  margin-top: 68%;
+  margin-right: 24px;
+}
+#featureP {
+ 
+  font-size: 14px;
+}
+.paraSpeed1 p{
+  font-size: 14px;
+}
+.fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+  flex-basis: calc(88.33% - 4px);
+  height: 340px;
+  width: 386px;
+}
+.user1 p {
+
+  font-size: 14px;
+}
+.user2 p {
+  
+  font-size: 14px;
+}
+.paraSpeeds2 p{
+  font-size: 14px;
+}
+.paraSpeedOne p{
+  font-size: 14px;
+}
+  }
+  @media only screen and (max-width: 454px){
+    .head1 h1 {
+      font-size: 50px;
+      right: 34px;
+      top: 7rem;
+      font-size: 44px;
+  }
+  .head2 h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 39px;
+    top: 11rem;
+    font-size: 44px;
+}
+.para2 p {
+  padding-right: 166px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#Bbutton {
+  position: absolute;
+  right: 273px;
+  top: 20rem;
+}
+.paraSpeed p{
+  font-size: 14px;
+}
+#rare {
+  font-size: 13px;
+}
+.easy h1 {
+ 
+  font-size: 23px;
+  padding-top: 59px;
+}
+.instant h1{
+  font-size: 23px;
+  padding-top: 59px;
+}
+.enjoy h1{
+  font-size: 23px;
+  padding-top: 59px;
+}
+
+.easy {
+  
+  width: 363px;
+}
+.instant{
+ 
+  width: 363px;
+}
+.enjoy{
+ 
+  width: 363px;
+}
+
+.easy1{
+  
+  width: 363px;
+}
+.instant1{
+  
+  width: 363px;
+}
+.enjoy1{
+ 
+  width: 363px;
+}
+
+.easys2{
+  width: 363px;
+}
+.instants2{
+  width: 363px;
+}
+.enjoys2{
+  width: 363px;
+}
+.enjoyOne{
+  width: 363px;
+}
+  }
+
+
+  
+ 
+
+  @media only screen and (max-width: 430px){
+    .head1 h1 {
+      font-size: 50px;
+      right: 17px;
+      top: 7rem;
+      font-size: 44px;
+  }
+  .head2 h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 21px;
+    top: 11rem;
+    font-size: 44px;
+}
+.para2 p {
+  padding-right: 147px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#Bbutton {
+  position: absolute;
+  right: 253px;
+  top: 20rem;
+}
+#imge {
+  height: 572px;
+  position: absolute;
+  top: 9rem;
+  left: -2rem;
+}
+
+
+#computer {
+  left: 73px;
+  top: 134rem;
+  height: 304px;
+}
+#rare {
+  font-size: 13px;
+  padding-left: 10px;
+}
+.user1 p {
+ 
+  font-size: 14px;
+}
+.user2 p {
+ 
+  font-size: 14px;
+}
+.sect {
+  margin-top: 77%;
+  margin-right: 24px;
+}
+#computer {
+  left: 73px;
+  top: 137rem;
+  height: 304px;
+}
+#featureP {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.paraSpeed1 p{
+  font-size: 14px;
+}
+.paraSpeeds2{
+  font-size: 14px;
+}
+
+
+.paraHead p{
+  font-size: 14px;
+}
+.paraWatch1 p{
+  font-size: 14px;
+}
+.paraWatch2 p{
+  font-size: 14px;
+}
+.matia {
+  height: 290px;
+  width: 389px;
+}
+.rock {
+  height: 290px;
+  width: 389px;
+}
+
+.fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+  flex-basis: calc(85.33% - 4px);
+  height: 340px;
+  width: 386px;
+}
+
+  }
+
+  @media only screen and (max-width: 429px){
+    #rare {
+      font-size: 12px;
+      padding-left: 10px;
+  }
+    .otherPages {
+      padding: 120px 54px;
+  }
+  }
+
+  @media only screen and (max-width: 414px){
+    .head1 h1 {
+      font-size: 50px;
+      right: 53px;
+      top: 10rem;
+      font-size: 35px;
+  }
+  .head2 h1 {
+    font-size: 50px;
+    right: 25px;
+    top: 13rem;
+    font-size: 35px;
+}
+.para2 p {
+    padding-right: 164px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+}
+#imge {
+  height: 576px;
+  position: absolute;
+  top: 10rem;
+  left: 0rem;
+}
+#Bbutton {
+  position: absolute;
+  right: 214px;
+  top: 20rem;
+}
+
+
+.paraSpeed p {
+
+  margin-top: 20px;
+  font-size: 14px;
+}
+.easy {
+ 
+  height: 275px;
+  width: 359px;
+}
+.instant{
+  height: 275px;
+  width: 359px;
+}
+.enjoy{
+  height: 275px;
+  width: 359px;
+}
+.easy h1 {
+  
+  font-size: 23px;
+  padding-top: 59px;
+}
+.instant h1 {
+  
+  font-size: 23px;
+  padding-top: 59px;
+}
+.enjoy h1 {
+  font-size: 22px;
+  padding-top: 59px;
+}
+
+.easy1{
+  width: 357px;
+}
+.instant1{
+  width: 357px;
+}
+.enjoy1{
+  width: 357px;
+}
+
+.easys2 {
+  width: 357px;
+}
+.instants2{
+  width: 357px;
+}
+.enjoys2{
+  width: 357px;
+}
+.resls1 img {
+  border-radius: 55px;
+  height: 68px;
+}
+.resls4 img {
+  border-radius: 55px;
+  height: 68px;
+}
+.enjoyOne {
+  width: 357px;
+}
+#readIt3 {
+  width: 252px;
+}
+.emails input{
+  width: 252px;
+}
+
+
+.otherPages {
+  padding: 120px 53px;
+}
+.premium {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.premium h1 {
+  font-size: 22px;
+}
+
+  }
+
+ 
+  @media only screen and (max-width: 407px){
+    .fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+      flex-basis: calc(87.33% - 4px);
+      height: 360px;
+      width: 386px;
+  }
+  .next {
+    height: 2784px;
+}
+.paraSpeed1 p {
+  font-size: 13px;
+}
+#imge {
+  height: 555px;
+  position: absolute;
+  top: 9rem;
+  left: 0rem;
+}
+
+#computer {
+  left: 59px;
+  top: 137rem;
+  height: 304px;
+}
+#rare {
+  font-size: 12px;
+  padding-left: 10px;
+}
+  }
+
+  @media only screen and (max-width: 400px){
+    #computer {
+      left: 59px;
+      top: 135rem;
+      height: 304px;
+  }
+  #rare {
+    font-size: 12px;
+    padding-left: 10px;
+}
+.secure1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -9px;
+}
+.secure2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: -9px;
+}
+
+.easy {
+  
+  width: 347px;
+}
+.instant{
+  width: 347px;
+}
+.enjoy{
+  width: 347px;
+}
+
+.easy1{
+  width: 347px;
+}
+.instant1{
+  
+  width: 347px;
+}
+.enjoy1{
+ 
+  width: 347px;
+}
+
+.easys2{
+  width: 347px;
+}
+.instants2{
+  width: 347px;
+}
+.enjoys2{
+  width: 347px;
+}
+.enjoyOne{
+  width: 347px;
+}
+  }
+
+  @media only screen and (max-width: 391px){
+    #computer {
+      left: 59px;
+      top: 134rem;
+      height: 304px;
+  }
+  .sect {
+    margin-top: 86%;
+    margin-right: 24px;
+}
+#imge {
+  height: 537px;
+  position: absolute;
+  top: 9rem;
+  left: 0rem;
+}
+  }
+  @media only screen and (max-width: 375px){
+    .head1 h1 {
+      font-size: 50px;
+      right: 34px;
+      top: 10rem;
+      font-size: 35px;
+  }
+  .head2 h1 {
+    font-size: 50px;
+    right: 3px;
+    top: 13rem;
+    font-size: 35px;
+}
+.para2 p {
+  padding-right: 143px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+}
+#Bbutton {
+  position: absolute;
+  right: 190px;
+  top: 20rem;
+  font-size: 15px;
+}
+.easy {
+  height: 275px;
+  width: 319px;
+}
+.instant{
+  height: 275px;
+  width: 319px;
+}
+.enjoy{
+  height: 275px;
+  width: 319px;
+}
+.easy h1 {
+  font-size: 21px;
+  padding-top: 59px;
+}
+.instant h1 {
+  font-size: 21px;
+  padding-top: 59px;
+}
+.enjoy h1 {
+  font-size: 20px;
+  padding-top: 59px;
+}
+.simple1 h1 {
+  margin-left: 18px;
+}
+#rare {
+  font-size: 11px;
+  padding-left: 10px;
+}
+.user1 p {
+  font-size: 11px;
+}
+.user2 p {
+  font-size: 11px;
+}
+#featureP {
+
+  font-size: 12px;
+}
+
+.easy1 {
+  width: 319px;
+}
+.instant1{
+  width: 319px;
+}
+.enjoy1{
+  width: 319px;
+}
+.paraSpeed1 p {
+  font-size: 12px;
+}
+.paraSpeeds2 {
+  font-size: 11px;
+}
+.easys2 {
+  width: 319px;
+}
+.instants2 {
+  width: 319px;
+}
+.enjoys2{
+  width: 319px;
+}
+
+.enjoyOne {
+  width: 319px;
+}
+.fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+  flex-basis: calc(83.33% - 4px);
+  height: 360px;
+  width: 386px;
+}
+  }
+
+  @media only screen and (max-width: 349px) {
+    .otherPages {
+      padding: 120px 33px;
+  }
+  .head1 h1 {
+    font-size: 50px;
+    right: 17px;
+    top: 10rem;
+    font-size: 35px;
+}
+.head2 h1 {
+  font-size: 50px;
+  right: -13px;
+  top: 13rem;
+  font-size: 35px;
+}
+.para2 p {
+  padding-right: 128px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+}
+#Bbutton {
+  position: absolute;
+  right: 177px;
+  top: 20rem;
+  font-size: 15px;
+}
+  }
+
+  @media only screen and (max-width: 333px){
+    .head1 h1 {
+      font-size: 50px;
+      right: 28px;
+      top: 10rem;
+      font-size: 31px;
+  }
+  .head2 h1 {
+    font-size: 50px;
+    right: -17px;
+    top: 13rem;
+    font-size: 31px;
+}
+.para2 p {
+  padding-right: 103px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+}
+#Bbutton {
+  position: absolute;
+  right: 152px;
+  top: 20rem;
+  font-size: 15px;
+}
+#imge {
+  height: 507px;
+  position: absolute;
+  top: 11rem;
+  left: -1rem;
+}
+.easy {
+  height: 275px;
+  width: 294px;
+}
+.instant {
+  height: 275px;
+  width: 294px;
+}
+.enjoy {
+  height: 275px;
+  width: 294px;
+}
+.enjoy h1 {
+  font-size: 18px;
+  padding-top: 59px;
+}
+.simple1 h1 {
+  margin-left: 8px;
+}
+#rare {
+  font-size: 9px;
+  padding-left: 10px;
+}
+#computer {
+  left: 33px;
+  top: 137rem;
+  height: 304px;
+}
+.fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+  flex-basis: calc(88.33% - 4px);
+  height: 386px;
+  width: 294px;
+}
+.next {
+  height: 2946px;
+}
+.easy1 {
+  width: 294px;
+}
+.instant1{
+  width: 294px;
+}
+.enjoy1{
+  width: 294px;
+}
+.paraSpeed1 p {
+  font-size: 11px;
+}
+.easys2 {
+  width: 294px;
+}
+.instants2 {
+  width: 294px;
+}
+.enjoys2 {
+  width: 294px;
+}
+.enjoyOne {
+  width: 294px;
+}
+  }
+
+
+  @media only screen and (max-width: 333px){
+    .paraSpeed p {
+      margin-top: 20px;
+      font-size: 10px;
+  }
+    .simple1 h1 {
+      font-size: 23px;
+  }
+  .simple2 h1 {
+    font-size: 23px;
+}
+.user1 h1 {
+  font-size: 22px;
+  
+}
+.user2 h1 {
+  font-size: 22px;
+  
+}
+    #computer {
+      left: 33px;
+      top: 135rem;
+      height: 304px;
+  }
+  }
+  @media only screen and (max-width: 320px){
+    .sect {
+      margin-top: 88%;
+      margin-right: 24px;
+  }
+    .fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+      flex-basis: calc(87.33% - 4px);
+      height: 408px;
+      width: 294px;
+  }
+  .easy h1 {
+    font-size: 18px;
+    padding-top: 69px;
+}
+.instant h1{
+  font-size: 18px;
+    padding-top: 69px;
+}
+.enjoy h1 {
+  font-size: 17px;
+  padding-top: 69px;
+}
+  .easy {
+   
+    width: 273px;
+}
+.instant{
+ 
+  width: 273px;
+}
+.enjoy{
+ 
+  width: 273px;
+}
+#imge {
+  height: 484px;
+  position: absolute;
+  top: 11rem;
+  left: -1rem;
+}
+
+
+
+
+  .next {
+    height: 3071px;
+}
+#computer {
+  left: 33px;
+  top: 134rem;
+  height: 304px;
+}
+.simple1 h1{
+  font-size: 24px;
+}
+.simple2 h1{
+  font-size: 24px;
+}
+
+.nowimg1 {
+  border-radius: 47px;
+  background-color: rgb(234,233,252);
+  height: 66px;
+  width: 69px;
+  margin-left: 27px;
+}
+.nowimg2 {
+  border-radius: 47px;
+  background-color: rgb(234,233,252);
+  height: 66px;
+  width: 69px;
+  margin-left: 27px;
+}
+.user1 p {
+  font-size: 10px;
+}
+.user2 p {
+  font-size: 10px;
+}
+.easy1 {
+  width: 273px;
+}
+.instant1 {
+  width: 273px;
+}
+.enjoy1 {
+  width: 273px;
+}
+
+.easys2 {
+  width: 274px;
+}
+.instants2{
+  width: 274px;
+}
+.enjoys2 {
+  width: 274px;
+}
+.enjoyOne {
+  width: 280px;
+}
+.emails input {
+  width: 234px;
+}
+#readIt3 {
+  width: 229px;
+}
+.otherPages {
+  padding: 120px 32px;
+}
+
+  }
+
+   /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+
+  .head1 h1 {
+    position: absolute;
+    top: 6rem;
+    left: -4rem;
+    font-size: 60px;
+}
+.head2 h1 {
+  position: absolute;
+  top: 11rem;
+  left: 3rem;
+  font-size: 60px;
+}
+  #imge {
+    height: 628px;
+    position: absolute;
+    left: -2rem;
+    top: 10rem;
+}
+
+
+#parts1 {
+  position: absolute;
+  top: 464px;
+  left: 134px;
+  height: 115px;
+}
+
+
+#parts3 {
+  position: absolute;
+  top: 664px;
+  left: 78px;
+  height: 106px;
+}
+#parts4 {
+  height: 106px;
+  position: absolute;
+  top: 651px;
+  left: 216px;
+}
+#parts5 {
+  position: absolute;
+  top: 669px;
+  left: 341px;
+  height: 143px;
+  width: 130px;
+}
+#parts7 {
+  height: 61px;
+  position: absolute;
+  top: 528px;
+  left: 336px;
+}
+#parts6 {
+  height: 31px;
+  position: absolute;
+  top: 566px;
+  left: 397px;
+}
+#parts2 {
+  position: absolute;
+  top: 571px;
+  left: 63px;
+  height: 102px;
+}
+#computer {
+  position: absolute;
+  left: 151px;
+  top: 2138px;
+  height: 243px;
+}
+#men {
+  position: absolute;
+  left: 142px;
+  top: 2208px;
+  transition: transform 0.3s ease;
+  height: 181px;
+}
+
+
+#women {
+  position: absolute;
+  left: 325px;
+  top: 2211px;
+  transition: transform 0.3s ease;
+  height: 183px;
+}
+
+.home {
+  height: 75rem;
+  
+}
+
+.para2 p {
+  position: absolute;
+  right: 22px;
+  top: 16rem;
+  font-size: 18px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 25rem;
+  top: 19rem;
+  font-size: 20px;
+}
+
+.solutions{
+  height: 843px;
+}
+.sect {
+  margin-bottom: -43%;
+  margin-right: 2rem;
+}
+
+.simple2 h1 {
+  margin-left: -16px;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+.simple1 h1 {
+  margin-left: -20px;
+  padding-top: 50px;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+  flex-basis: calc(76.33% - 10px);
+}
+.next {
+  height: 2557px;
+}
+.home1 {
+  height: 1768px;
+  background-color: rgb(89,85,239);
+}
+.homes2 {
+  height: 1370px;
+}
+.workOne h1 {
+
+  padding-top: 262px;
+}
+.homeOne {
+  height: 957px;
+  
+}
+.otherPages{
+  padding: 120px 109px;
+}
+
+  
+}
+
+@media only screen and (min-width: 650px){
+  .para2 p {
+    position: absolute;
+    right: 40px;
+    top: 16rem;
+    font-size: 20px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 28rem;
+  top: 19rem;
+  font-size: 20px;
+}
+#imge {
+  height: 628px;
+  position: absolute;
+  left: 1rem;
+  top: 10rem;
+}
+#parts6 {
+  height: 31px;
+  position: absolute;
+  top: 566px;
+  left: 447px;
+}
+#parts1 {
+  position: absolute;
+  top: 464px;
+  left: 170px;
+  height: 115px;
+}
+#parts4 {
+  height: 106px;
+  position: absolute;
+  top: 651px;
+  left: 250px;
+}
+#parts3 {
+  position: absolute;
+  top: 664px;
+  left: 127px;
+  height: 106px;
+}
+#parts2 {
+  position: absolute;
+  top: 571px;
+  left: 86px;
+  height: 102px;
+}
+#parts7 {
+  height: 61px;
+  position: absolute;
+  top: 528px;
+  left: 384px;
+}
+}
+
+@media only screen and (min-width: 700px){
+  .para2 p {
+    position: absolute;
+    right: 91px;
+    top: 16rem;
+    font-size: 20px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 31rem;
+  top: 19rem;
+  font-size: 20px;
+}
+#imge {
+  height: 628px;
+  position: absolute;
+  left: 7rem;
+  top: 10rem;
+}
+#parts1 {
+  position: absolute;
+  top: 464px;
+  left: 277px;
+  height: 115px;
+}
+#parts7 {
+  height: 61px;
+  position: absolute;
+  top: 528px;
+  left: 478px;
+}
+#parts5 {
+  position: absolute;
+  top: 669px;
+  left: 464px;
+  height: 143px;
+  width: 130px;
+}
+#parts4 {
+  height: 106px;
+  position: absolute;
+  top: 651px;
+  left: 369px;
+}
+#parts2 {
+  position: absolute;
+  top: 571px;
+  left: 193px;
+  height: 102px;
+}
+#parts3 {
+  position: absolute;
+  top: 664px;
+  left: 236px;
+  height: 106px;
+}
+#parts6 {
+  height: 31px;
+  position: absolute;
+  top: 566px;
+  left: 547px;
+}
+}
+@media  (min-width: 767px){
+  #imge {
+    height: 628px;
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+}
+#parts1 {
+  position: absolute;
+  top: 407px;
+  left: 263px;
+  height: 115px;
+}
+#parts2 {
+  position: absolute;
+  top: 514px;
+  left: 166px;
+  height: 102px;
+}
+#parts3 {
+  position: absolute;
+  top: 614px;
+  left: 217px;
+  height: 106px;
+}
+#parts4 {
+  height: 106px;
+  position: absolute;
+  top: 593px;
+  left: 342px;
+}
+#parts5 {
+  position: absolute;
+  top: 613px;
+  left: 447px;
+  height: 115px;
+  width: 123px;
+}
+#parts6 {
+  height: 31px;
+  position: absolute;
+  top: 512px;
+  left: 535px;
+}
+#parts7 {
+  height: 61px;
+  position: absolute;
+  top: 462px;
+  left: 463px;
+}
+.para2 p {
+  position: absolute;
+  right: 157px;
+  top: 16rem;
+  font-size: 20px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 563px;
+  top: 19rem;
+  font-size: 20px;
+}
+
+}
+
+@media  (min-width: 764px){
+  .para2 p {
+    position: absolute;
+    right: 152px;
+    top: 16rem;
+    font-size: 20px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 35rem;
+  top: 19rem;
+  font-size: 20px;
+}
+#imge {
+  height: 628px;
+  position: absolute;
+  left: 10rem;
+  top: 6rem;
+}
+#parts1 {
+  position: absolute;
+  top: 410px;
+  left: 329px;
+  height: 115px;
+}
+}
+
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media  (min-width: 768px) {
+    .head1 h1{
+        position: absolute;
+        top: 9rem;
+        left: -4rem;
+        font-size: 60px;
+    }
+    .head2 h1{
+        position: absolute;
+        top: 14rem;
+        left: 3rem;
+        font-size: 60px;
+    }
+    .para2 p {
+        font-size: 50px;
+        position: absolute;
+        right: 32rem;
+        top: 27rem;
+        font-size: 26px;
+    }
+    .para2 p {
+        position: absolute;
+    right: 154px;
+    top: 22rem;
+    font-size: 20px;
+    }
+    #Bbutton {
+        font-size: 50px;
+        position: absolute;
+        right: 49rem;
+        top: 25rem;
+        font-size: 20px;
+    }
+    #Bbutton {
+        font-size: 50px;
+        position: absolute;
+        right: 35rem;
+        top: 25rem;
+        font-size: 20px;
+    }
+    #imge {
+        height: 628px;
+        position: absolute;
+        left: 12rem;
+        top: 10rem;
+    }
+    #parts1 {
+        position: absolute;
+        top: 464px;
+        left: 356px;
+        height: 115px;
+    }
+    #parts3 {
+        position: absolute;
+        top: 664px;
+        left: 305px;
+        height: 106px;
+    }
+    #parts4 {
+        height: 106px;
+        position: absolute;
+        top: 651px;
+        left: 443px;
+    }
+    #parts5 {
+        position: absolute;
+        top: 669px;
+        left: 545px;
+        height: 143px;
+        width: 130px;
+    }
+    #parts7 {
+        height: 61px;
+        position: absolute;
+        top: 528px;
+        left: 558px;
+    }
+    #parts6 {
+        height: 31px;
+        position: absolute;
+        top: 566px;
+        left: 626px;
+    }
+    #parts2 {
+        position: absolute;
+        top: 571px;
+        left: 279px;
+        height: 102px;
+    }
+    #computer {
+      position: absolute;
+      left: 256px;
+      top: 2139px;
+      height: 243px;
+  }
+  .sect {
+    margin-bottom: -43%;
+    margin-right: 5rem;
+}
+#men {
+  position: absolute;
+  left: 232px;
+  top: 2208px;
+  transition: transform 0.3s ease;
+  height: 181px;
+}
+#women {
+  position: absolute;
+  left: 443px;
+  top: 2211px;
+  transition: transform 0.3s ease;
+  height: 183px;
+}
+    .fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+        flex-basis: calc(68.33% - 3px);
+    }
+    .next {
+      height: 2573px;
+  }
+  .home1 {
+    height: 1771px;
+    background-color: rgb(89,85,239);
+}
+.homes2 {
+  height: 1370px;
+}
+    .workOne h1 {
+        padding-top: 268px;
+    }
+    .homeOne {
+        height: 951px;
+    }
+    
+    .otherPages {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 120px 199px;
+  }
+
+}
+@media only screen and (min-width: 800px){
+  .head1 h1 {
+    position: absolute;
+    top: 9rem;
+    left: -25px;
+    font-size: 60px;
+}
+.head2 h1 {
+  position: absolute;
+  top: 14rem;
+  left: 83px;
+  font-size: 60px;
+}
+  
+  .otherPages {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 120px 199px;
+}
+.homes2 {
+  height: 1370px;
+}
+
+}
+
+@media only screen and (min-width: 850px){
+  .para2 p {
+    position: absolute;
+    right: 202px;
+    top: 22rem;
+    font-size: 20px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 610px;
+  top: 25rem;
+  font-size: 20px;
+}
+
+  .homes2 {
+    height: 936px;
+  }
+  .otherPages {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 120px 199px;
+}
+
+}
+@media only screen and (min-width: 900px){
+  .para2 p {
+    position: absolute;
+    right: 250px;
+    top: 22rem;
+    font-size: 20px;
+}
+#Bbutton {
+    font-size: 50px;
+    position: absolute;
+    right: 656px;
+    top: 25rem;
+    font-size: 20px;
+}
+  .homes2 {
+    height: 936px;
+  }
+  .otherPages {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 120px 199px;
+}
+
+}
+
+@media only screen and (min-width: 950px){
+  .head2 h1 {
+    position: absolute;
+    top: 14rem;
+    left: 136px;
+    font-size: 60px;
+}
+.head1 h1 {
+  position: absolute;
+  top: 9rem;
+  left: 27px;
+  font-size: 60px;
+}
+  .otherPages {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 120px 199px;
+}
+.homes2 {
+  height: 936px;
+}
+
+}
+
+   /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .head1 h1 {
+    position: absolute;
+    top: 9rem;
+    left: -51px;
+    font-size: 60px;
+}
+    .head2 h1 {
+      position: absolute;
+      top: 14rem;
+      left: 54px;
+      font-size: 60px;
+  }
+    /* .para2 p {
+        font-size: 50px;
+        position: absolute;
+        right: 32rem;
+        top: 27rem;
+        font-size: 26px;
+    } */
+    .para2 p {
+        font-size: 50px;
+        position: absolute;
+        right: 377px;
+        top: 22rem;
+        font-size: 20px;
+    }
+    
+    #Bbutton {
+        font-size: 50px;
+        position: absolute;
+        right: 49rem;
+        top: 25rem;
+        font-size: 20px;
+    }
+    #imge {
+        height: 628px;
+        position: absolute;
+        left: 27rem;
+        top: 1rem;
+    }
+    #parts1 {
+      position: absolute;
+      top: 328px;
+      left: 597px;
+      height: 115px;
+  }
+  #parts2 {
+    position: absolute;
+    top: 436px;
+    left: 514px;
+    height: 102px;
+}
+#parts3 {
+  position: absolute;
+  top: 550px;
+  left: 539px;
+  height: 106px;
+}
+#parts4 {
+  height: 106px;
+  position: absolute;
+  top: 514px;
+  left: 665px;
+}
+#parts5 {
+  position: absolute;
+  top: 536px;
+  left: 772px;
+  height: 122px;
+  width: 134px;
+}
+
+  #parts6 {
+    height: 31px;
+    position: absolute;
+    top: 440px;
+    left: 869px;
+}
+  #parts7 {
+    height: 61px;
+    position: absolute;
+    top: 383px;
+    left: 797px;
+}
+.home {
+  height: 57rem;
+}
+.solutions {
+  height: 917px;
+}
+
+#men {
+  position: absolute;
+  top: 2018px;
+  left: 133px;
+  height: 162px;
+}
+#computer {
+  position: absolute;
+  left: 120px;
+  top: 1939px;
+  height: 289px;
+}
+#women {
+  position: absolute;
+  left: 332px;
+  height: 162px;
+  top: 2035px;
+}
+  .next {
+    height: 2555px;
+}
+.home1 {
+  height: 1328px;
+  
+}
+.homes2 {
+  height: 936px;
+}
+.otherPages {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 120px 198px;
+}
+.solutions {
+  height: 671px;
+}
+.sect {
+  margin-bottom: 6%;
+  margin-right: -4rem;
+}
+    
+    .feedback {
+        
+        gap: 21px;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px){
+  .head2 h1 {
+    position: absolute;
+    top: 14rem;
+    left: 5rem;
+    font-size: 60px;
+}
+.para2 p {
+  font-size: 50px;
+  position: absolute;
+  right: 361px;
+  top: 20rem;
+  font-size: 20px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 766px;
+  top: 25rem;
+  font-size: 20px;
+}
+.head1 h1 {
+  position: absolute;
+  top: 9rem;
+  left: -2rem;
+  font-size: 60px;
+}
+.homes2 {
+  height: 936px;
+}
+}
+
+@media only screen and (min-width: 1110px){
+  .head1 h1 {
+    position: absolute;
+    top: 9rem;
+    left: 22px;
+    font-size: 60px;
+}
+.head2 h1 {
+  position: absolute;
+  top: 14rem;
+  left: 8rem;
+  font-size: 60px;
+}
+.para2 p {
+  font-size: 50px;
+  position: absolute;
+  right: 419px;
+  top: 20rem;
+  font-size: 20px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 823px;
+  top: 25rem;
+  font-size: 20px;
+}
+  .total{
+    min-height: 887px;
+  }
+  .homes2 {
+    height: 920px;
+}
+}
+
+@media only screen and (min-width: 1020px){
+  .para2 p {
+    font-size: 50px;
+    position: absolute;
+    right: 379px;
+    top: 20rem;
+    font-size: 20px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 785px;
+  top: 25rem;
+  font-size: 20px;
+}
+}
+
+
+@media only screen and (min-width: 1080px){
+  .para2 p {
+    font-size: 50px;
+ 
+    right: 433px;
+    top: 20rem;
+    font-size: 20px;
+}
+#Bbutton {
+  font-size: 50px;
+
+  right: 837px;
+  top: 25rem;
+  font-size: 20px;
+}
+.easy h1 {
+ 
+  font-size: 26px;
+  padding-top: 59px;
+}
+
+.instant h1 {
+ 
+  font-size: 25px;
+  padding-top: 59px;
+}
+.enjoy h1 {
+
+  font-size: 25px;
+  padding-top: 59px;
+}
+}
+   /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #imge {
+    position: absolute;
+    top: 5rem;
+    left: 36rem;
+}
+#parts2 {
+  top: 32rem;
+  left: 40rem;
+}
+    #parts1 {
+      top: 24rem;
+      left: 46rem;
+  }
+  #parts3 {
+    top: 37rem;
+    left: 42rem;
+}
+    #parts4 {
+      top: 36rem;
+      left: 52rem;
+  }
+    #parts7 {
+      top: 28rem;
+      left: 59rem;
+  }
+    #parts6 {
+        
+        top: 29rem;
+        left: 64rem;
+    }
+    #parts5 {
+      top: 37rem;
+      left: 58rem;
+      height: 123px;
+      width: 123px;
+  }
+  .head1 h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 435px;
+    top: 11rem;
+    font-size: 67px;
+}
+    
+  .head2 h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 532px;
+    top: 16rem;
+    font-size: 67px;
+}
+.para2 p {
+  font-size: 50px;
+  position: absolute;
+  right: 401px;
+  top: 23rem;
+  font-size: 26px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 891px;
+  top: 30rem;
+  font-size: 16px;
+}
+
+
+
+
+    .home {
+        height: 59rem;
+    }
+    #men {
+        position: absolute;
+        left: 81px;
+        top: 2066px;
+        transition: transform 0.3s ease;
+        height: 269px;
+    }
+    #computer {
+        position: absolute;
+        left: 18px;
+        top: 2016px;
+        height: 425px;
+    }
+    #men {
+        position: absolute;
+        left: 33px;
+        top: 2137px;
+        transition: transform 0.3s ease;
+        height: 269px;
+    }
+    #women {
+        position: absolute;
+        left: 333px;
+        top: 2130px;
+        transition: transform 0.3s ease;
+        height: 251px;
+    }
+    .home1 {
+        height: 1314px;
+        background-color: rgb(89,85,239);
+    }
+    .homes2 {
+      height: 949px;
+  }
+}
+@media only screen and (min-width: 1260px){
+  .homes2 {
+    height: 520px;
+}
+}
+
+
+
+@media only screen and (min-width: 1279px){
+  .workOne h1 {
+    padding-top: 0px;
+}
+.homeOne {
+  height: 731px;
+}
+.head2 h1 {
+  font-size: 50px;
+  position: absolute;
+  right: 532px;
+  top: 258px;
+  font-size: 67px;
+}
+  .total{
+    min-height: 860px;
+  }
+  .para2 p {
+    font-size: 50px;
+    position: absolute;
+    right: 441px;
+    top: 23rem;
+    font-size: 26px;
+}
+#imge {
+  position: absolute;
+  top: 0rem;
+  left: 40rem;
+}
+#parts6 {
+  top: 27rem;
+  left: 67rem;
+}
+  #parts7 {
+    top: 23rem;
+    left: 63rem;
+}
+#parts1 {
+  top: 19rem;
+  left: 50rem;
+}
+  #parts5 {
+    top: 32rem;
+    left: 61rem;
+    height: 150px;
+    width: 154px;
+}
+#parts4 {
+  top: 31rem;
+  left: 54rem;
+}
+#parts3 {
+  top: 33rem;
+  left: 46rem;
+}
+#parts2 {
+  top: 27rem;
+  left: 44rem;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 930px;
+  top: 30rem;
+  font-size: 16px;
+}
+
+
+  .home {
+    height: 44rem;
+}
+#women {
+  position: absolute;
+  left: 449px;
+  top: 1833px;
+  transition: transform 0.3s ease;
+  height: 212px;
+}
+#computer {
+  position: absolute;
+  left: 168px;
+  top: 1711px;
+  height: 378px;
+}
+#men {
+  position: absolute;
+  left: 202px;
+  top: 1818px;
+  transition: transform 0.3s ease;
+  height: 204px;
+}
+.fast, .cyber, .virtual, .nixvpn, .hotspot, .aes {
+  flex-basis: calc(25.33% - 1px);
+  height: 354px;
+}
+.next {
+  height: 1085px;
+}
+.home1 {
+  height: 869px;
+  background-color: rgb(89,85,239);
+}
+.homes2 {
+  height: 673px;
+}
+.enjoyOne {
+  
+  height: 450px;
+  width: 602px;
+ 
+}
+.workOne h1 {
+  padding-top: 117px;
+}
+.homeOne {
+  height: 836px;
+}
+.easy{
+  height: 275px;
+    width: 315px;
+}
+.easy h1 {
+  font-size: 22px;
+  padding-top: 59px;
+}
+.instant h1{
+  font-size: 22px;
+  padding-top: 59px;
+}
+.instant{
+  height: 275px;
+    width: 315px;
+}
+.enjoy{
+  height: 275px;
+    width: 315px;
+}
+.enjoy h1{
+  font-size: 20px;
+  padding-top: 59px;
+}
+
+.easy1{
+  height: 445px;
+  width: 315px;
+}
+.instant1{
+  height: 445px;
+  width: 315px;
+}
+.enjoy1 {
+  height: 445px;
+  width: 315px;
+}
+
+
+.easys2{
+  width: 315px;
+    height: 412px;
+}
+.instants2{
+  width: 315px;
+    height: 412px;
+}
+.enjoys2 {
+  width: 315px;
+  height: 412px;
+}
+}
+
+@media only screen and (min-width: 1400px){
+  .para2 p {
+    font-size: 50px;
+    position: absolute;
+    right: 504px;
+    top: 23rem;
+    font-size: 26px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 996px;
+  top: 30rem;
+  font-size: 16px;
+}
+.head2 h1 {
+  font-size: 50px;
+  position: absolute;
+  right: 532px;
+  top: 261px;
+  font-size: 67px;
+}
+}
+
+
+@media only screen and (min-width: 1439px){
+  .workOne h1 {
+    padding-top: 0px;
+}
+.homeOne {
+  height: 731px;
+}
+.homes2 {
+  height: 777px;
+}
+.para2 p {
+  font-size: 50px;
+  position: absolute;
+  right: 520px;
+  top: 23rem;
+  font-size: 26px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 1011px;
+  top: 30rem;
+  font-size: 16px;
+}
+}
+@media only screen and (min-width: 1539px){
+  .para2 p {
+    font-size: 50px;
+    position: absolute;
+    right: 570px;
+    top: 23rem;
+    font-size: 26px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 1060px;
+  top: 30rem;
+  font-size: 16px;
+}
+}
+@media only screen and (min-width: 1599px){
+  
+  .workOne h1 {
+    padding-top: 0px;
+}
+.homeOne {
+  height: 731px;
+}
+.para2 p {
+  font-size: 50px;
+  position: absolute;
+  right: 633px;
+  top: 23rem;
+  font-size: 26px;
+}
+.head1 h1 {
+  font-size: 50px;
+  position: absolute;
+  right: 428px;
+  top: 11rem;
+  font-size: 75px;
+}
+.head2 h1 {
+  font-size: 50px;
+  position: absolute;
+  right: 558px;
+  top: 16rem;
+  font-size: 75px;
+}
+
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 1098px;
+  top: 30rem;
+  font-size: 21px;
+  height: 4rem;
+  width: 11rem;
+}
+#imge {
+  position: absolute;
+  top: 0rem;
+  left: 53rem;
+}
+#parts7 {
+  top: 23rem;
+  left: 76rem;
+}
+#parts1 {
+  top: 19rem;
+  left: 63rem;
+}
+#parts5 {
+  top: 32rem;
+  left: 75rem;
+  height: 150px;
+  width: 154px;
+}
+#parts4 {
+  top: 31rem;
+  left: 69rem;
+}
+#parts2 {
+  top: 27rem;
+  left: 57rem;
+}
+#parts3 {
+  top: 33rem;
+  left: 60rem;
+}
+.sect {
+  margin-bottom: 6%;
+  margin-right: 1rem;
+}
+#women {
+  position: absolute;
+  left: 595px;
+  top: 1833px;
+  transition: transform 0.3s ease;
+  height: 212px;
+}
+#computer {
+  position: absolute;
+  left: 321px;
+  top: 1711px;
+  height: 378px;
+}
+#men {
+  position: absolute;
+  left: 343px;
+  top: 1818px;
+  transition: transform 0.3s ease;
+  height: 204px;
+}
+
+
+}
+@media only screen and (min-width: 1649px){
+  .para2 p {
+    font-size: 50px;
+    position: absolute;
+    right: 658px;
+    top: 23rem;
+    font-size: 26px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 1127px;
+  top: 30rem;
+  font-size: 21px;
+  height: 4rem;
+  width: 11rem;
+}
+}
+@media only screen and (min-width: 1699px){
+  .workOne h1 {
+    padding-top: 0px;
+}
+.homeOne {
+  height: 731px;
+}
+  .total {
+    min-height: 916px;
+}
+.para2 p {
+  font-size: 50px;
+  position: absolute;
+  right: 683px;
+  top: 24rem;
+  font-size: 26px;
+}
+#Bbutton {
+  font-size: 50px;
+  position: absolute;
+  right: 1149px;
+  top: 30rem;
+  font-size: 21px;
+  height: 4rem;
+  width: 11rem;
+}
+#women {
+  position: absolute;
+  left: 595px;
+  top: 1883px;
+  transition: transform 0.3s ease;
+  height: 212px;
+}
+#computer {
+  position: absolute;
+  left: 321px;
+  top: 1771px;
+  height: 378px;
+}
+#men {
+  position: absolute;
+  left: 343px;
+  top: 1885px;
+  transition: transform 0.3s ease;
+  height: 204px;
+}
+}
+
+@media only screen and (min-width: 1750px){
+  .workOne h1 {
+    padding-top: 0px;
+}
+.homeOne {
+  height: 731px;
+}
+.para2 p {
+  font-size: 50px;
+  right: 710px;
+  top: 24rem;
+  font-size: 26px;
+}
+#Bbutton {
+  font-size: 50px;
+  right: 1172px;
+  top: 30rem;
+  font-size: 21px;
+  height: 4rem;
+  width: 11rem;
+}
+
+
+}
+
+@media only screen and (min-width: 1799px){
+  .workOne h1 {
+    padding-top: 0px;
+}
+.homeOne {
+  height: 731px;
+}
+  .head1 h1 {
+    font-size: 50px;
+    position: absolute;
+    right: 544px;
+    top: 11rem;
+    font-size: 75px;
+}
+.head2 h1 {
+  font-size: 50px;
+  position: absolute;
+  right: 682px;
+  top: 16rem;
+  font-size: 75px;
+}
+
+
+
+#Bbutton {
+  font-size: 50px;
+  right: 1259px;
+  top: 30rem;
+  font-size: 21px;
+  height: 4rem;
+  width: 11rem;
+}
+#imge {
+  position: absolute;
+  top: 0rem;
+  left: 64rem;
+}
+#parts7 {
+  top: 23rem;
+  left: 87rem;
+}
+#parts1 {
+  top: 19rem;
+  left: 74rem;
+}
+#parts6 {
+  top: 27rem;
+  left: 91rem;
+}
+#parts2 {
+  top: 27rem;
+  left: 67rem;
+}
+#parts4 {
+  top: 31rem;
+  left: 80rem;
+}
+#parts5 {
+  top: 32rem;
+  left: 87rem;
+  height: 150px;
+  width: 154px;
+}
+#parts3 {
+  top: 33rem;
+  left: 71rem;
+}
+
+
+.para2 p {
+  font-size: 50px;
+  right: 794px;
+  top: 24rem;
+  font-size: 26px;
+}
+.total {
+  min-height: 951px;
+}
+
+}
+
+@media only screen and (min-width: 1849px){
+  .workOne h1 {
+    padding-top: 0px;
+}
+.homeOne {
+  height: 737px;
+}
+.para2 p {
+  font-size: 50px;
+  right: 820px;
+  top: 24rem;
+  font-size: 26px;
+}
+.total {
+  min-height: 971px;
+}
+#Bbutton {
+  font-size: 50px;
+  right: 1288px;
+  top: 30rem;
+  font-size: 21px;
+  height: 4rem;
+  width: 11rem;
+}
+#imge {
+  position: absolute;
+  top: 0rem;
+  left: 64rem;
+}
+#parts7 {
+  top: 23rem;
+  left: 87rem;
+}
+#parts1 {
+  top: 19rem;
+  left: 74rem;
+}
+#parts6 {
+  top: 27rem;
+  left: 91rem;
+}
+#parts2 {
+  top: 27rem;
+  left: 67rem;
+}
+#parts4 {
+  top: 31rem;
+  left: 80rem;
+}
+#parts5 {
+  top: 32rem;
+  left: 87rem;
+  height: 150px;
+  width: 154px;
+}
+#parts3 {
+  top: 33rem;
+  left: 71rem;
+}
+#women {
+  position: absolute;
+  left: 706px;
+  top: 1883px;
+  transition: transform 0.3s ease;
+  height: 212px;
+}
+#computer {
+  position: absolute;
+  left: 426px;
+  top: 1771px;
+  height: 378px;
+}
+#men {
+  position: absolute;
+  left: 459px;
+  top: 1885px;
+  transition: transform 0.3s ease;
+  height: 204px;
+}
+.sect {
+  margin-bottom: 2%;
+  margin-right: 1rem;
+}
+#women {
+  position: absolute;
+  left: 706px;
+  top: 1959px;
+  transition: transform 0.3s ease;
+  height: 212px;
+}
+#computer {
+  position: absolute;
+  left: 426px;
+  top: 1835px;
+  height: 378px;
+}
+#men {
+  position: absolute;
+  left: 459px;
+  top: 1955px;
+  transition: transform 0.3s ease;
+  height: 204px;
+}
+}
+
+@media only screen and (min-width: 1899px){
+  #imge {
+    position: absolute;
+    top: 0rem;
+    left: 66rem;
+}
+#parts1 {
+  top: 19rem;
+  left: 76rem;
+}
+#parts7 {
+  top: 23rem;
+  left: 89rem;
+}
+#parts5 {
+  top: 32rem;
+  left: 88rem;
+  height: 150px;
+  width: 154px;
+}
+#parts4 {
+  top: 31rem;
+  left: 82rem;
+}
+#parts6 {
+  top: 27rem;
+  left: 94rem;
+}
+#parts3 {
+  top: 33rem;
+  left: 73rem;
+}
+#parts2 {
+  top: 27rem;
+  left: 69rem;
+}
+.total {
+  min-height: 997px;
+}
+.head1 h1 {
+  font-size: 50px;
+  position: absolute;
+  right: 553px;
+  top: 11rem;
+  font-size: 75px;
+}
+.para2 p {
+  font-size: 50px;
+  right: 844px;
+  top: 24rem;
+  font-size: 26px;
+}
+#Bbutton {
+  font-size: 50px;
+  right: 1310px;
+  top: 30rem;
+  font-size: 21px;
+  height: 4rem;
+  width: 11rem;
+}
+
+.workOne h1 {
+  padding-top: 0px;
+}
+.homeOne {
+  height: 738px;
+}
+.paraSpeed p {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+}
+
+
+
+

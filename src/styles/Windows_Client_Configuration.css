@@ -1,0 +1,2857 @@
+/* .................................lorem.................................... */
+.lorem1 {
+  margin-top: 0px;
+  background: url('../assets/Images/newBanner.png');
+  height: 505px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+/* body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: #d49664;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+} */
+
+/* Add other styles for your components */
+/* ... */
+
+/* Modal styles */
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.mainHed1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.servHead1 h1 {
+  color: white;
+  padding-top: 130px;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* .mainHed{
+    color: white;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    font-weight: bold;
+} */
+.nowHom h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.DotNow1 h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.nowServ h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.DotNow2 h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.nowDesn h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.DotNow3 h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.nowHidn h4 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+}
+
+
+/* ........................Arragement................................. */
+
+body {
+  margin: 0;
+}
+
+.vsc2 {
+
+  height: 68px;
+  width: 68px;
+  border-radius: 40px;
+  background-color: rgb(54, 54, 219);
+  color: white;
+  border: none;
+  position: absolute;
+  left: 560px;
+  top: 150px;
+}
+
+.vsc2:hover {
+  background-color: #0fec16;
+  color: blue;
+}
+
+/* .vscButton {
+    border-radius: 50px;
+    background-color: white;
+    color: white;
+    height: 58px;
+    width: 62px;
+    font-family: 'TeXGyreAdventor-Bold', sans-serif;
+    margin-right: 349px;
+    background-color: rgb(44, 58, 217);
+    position: absolute;
+    left: 560px;
+    top:150px;
+    
+  }
+  .vsc2{
+    margin-top: 19px;
+  } */
+/* .vsc2{
+    height: 58px;
+    width: 58px;
+    border-radius: 20px;
+    background-color: rgb(54, 54, 219);
+    color: white;
+    border: none;
+    position: absolute;
+    left: 560px;
+    top:150px;
+  } */
+
+
+.Arrangement1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 120px;
+  height: 435px;
+  position: relative;
+
+}
+
+.redImg1 img {
+  height: 346px;
+  width: 573px;
+}
+
+.taglinez1 p {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+}
+
+#btnsNew4z {
+  font-size: 16px;
+  font-weight: 400;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgb(85, 81, 239);
+  color: white;
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  /* transition: 0.4s */
+  background-position: 100% 0;
+  transition: background-size 0.6s, background-position 0.6s;
+}
+
+.btn-get {
+  display: flex;
+  align-items: flex-end;
+}
+
+#btnsNew4z:hover {
+  background-size: 100% 100%;
+  color: white;
+}
+
+
+.trusts1 {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.trusts1 h1 {
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.taglinez1 {
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.FullGurd1 {
+  width: 35%;
+}
+
+
+/* ...........................works................................. */
+
+/* .vpn1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+} */
+
+.redImg1 img {
+  border-radius: 20px;
+}
+
+.Works1 {
+  text-align: left;
+  padding-left: 290px;
+  padding-right: 14rem;
+}
+
+.Works1 h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+}
+
+.Works1 p {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* ..................................whatIs................................. */
+
+
+.whatIs1 {
+  padding-left: 270px;
+  margin: 20px 0px;
+  padding-right: 250px;
+}
+
+.plus1,
+.plus2,
+.plus3,
+.plus4 {
+  color: blue;
+}
+
+.arrows1,
+.arrows2,
+.arrows3,
+.arrows4 {
+  color: blue;
+}
+
+.arrow1,
+.arrow2,
+.arrow3,
+.arrow4,
+.arrow5 {
+  color: blue;
+}
+
+.whatIs1 h1 {
+  font-size: 30px;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.whatIs1 p {
+  text-align: left;
+}
+
+.accordion1 {
+  background-color: #f9f9f9;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+
+}
+
+.accordion1.active,
+.accordion1:hover {
+  background-color: #ccc;
+
+}
+
+.accordion1 {
+  margin-top: 30px;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+}
+
+.panel.show1 {
+  display: block;
+}
+
+/* ////////////////////////////////////////// */
+
+#step1 {
+  display: flex;
+  justify-content: left;
+
+}
+
+#wstep2 {
+  display: flex;
+  justify-content: left;
+
+}
+
+#userDet3 {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#userDet1 {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+
+}
+
+#userDet2 {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#install {
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#ubuntu {
+  font-family: 'Roboto', sans-serif;
+}
+
+#pink {
+  color: rgb(239, 172, 229);
+  border: 1px solid rgb(255, 178, 178);
+  font-family: 'SFMono-Regular', monospace;
+}
+
+.panel {
+  width: 50%;
+
+}
+
+#Connections1 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#Connections2 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#Connections3 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#browse1 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#browse2 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#window {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+#newNix {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+
+#vpnImage1 {
+  display: flex;
+  justify-content: left;
+  height: 450px;
+  padding-top: 15px;
+}
+
+#ConfigureVPN1 {
+  display: flex;
+  justify-content: left;
+
+}
+
+
+#fontSize1 {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#fontSize2 {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#fontSize3 {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#fontSize4 {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#files1 {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#files2 {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#files3 {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#files4 {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#Uname {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#Pname {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+#nameNixvpn {
+  font-weight: 600;
+  border: 1px solid rgb(255, 178, 178);
+}
+
+.connect-text {
+  display: flex;
+  justify-content: center;
+}
+
+#headCard1 {
+  font-size: 40px;
+  display: flex;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 70px;
+}
+
+#sslVpn {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+.pink-box-txt {
+  font-family: 'Roboto', sans-serif;
+}
+
+#ovpn {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+#Spoint {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+#imgSec {
+  display: flex;
+  justify-content: left;
+}
+
+#imgPoint {
+  display: flex;
+  justify-content: left;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .............................empResults........................................ */
+
+.dist1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+
+}
+
+.dist2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+}
+
+.dist3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+}
+
+.dist4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+}
+
+.dist5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px;
+  padding-left: 300px;
+}
+
+/* ........................Teamz................................... */
+
+
+.Teamz1 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  /* background-color: rgb(98, 94, 241); */
+  background: url('../assets/Images/funfact_bg_img.png');
+  height: 530px;
+  padding-top: 120px;
+  background-position: center center;
+  margin: 85px 0px;
+}
+
+.Teamz1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6562F1;
+  /* Adjust the alpha (last value) to control the opacity */
+  z-index: -1;
+  /* Push the pseudo-element behind the image */
+  background-blend-mode: multiply;
+}
+
+.supportz1 {
+  border: 0px solid rgb(99, 96, 241);
+  background-color: transparent;
+  border-radius: 8px;
+  /* box-shadow: 0px 8px 16px 0px ; */
+  height: 290px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 59px 0px;
+}
+
+.supportz1 img {
+  padding-bottom: 10px;
+}
+
+.supportz1 h1 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.supportz1 p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.partnerz1 {
+  border: 0px solid rgb(99, 96, 241);
+  background-color: transparent;
+  border-radius: 8px;
+  /* box-shadow: 0px 8px 16px 0px ; */
+  height: 290px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 59px 0px;
+}
+
+.partnerz1 img {
+  padding-bottom: 10px;
+}
+
+.partnerz1 h1 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.partnerz1 P {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.clientz1 {
+  border: 0px solid rgb(99, 96, 241);
+  background: transparent;
+  border-radius: 8px;
+  /* box-shadow: 0px 8px 16px 0px ; */
+  height: 290px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 59px 0px;
+}
+
+.clientz1 img {
+  padding-bottom: 10px;
+}
+
+.clientz1 h1 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.clientz1 P {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.appz1 {
+  border: 0px solid rgb(99, 96, 241);
+  background-color: transparent;
+  border-radius: 8px;
+  /* box-shadow: 0px 8px 16px 0px ; */
+  height: 290px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 59px 0px;
+}
+
+.appz1 img {
+  padding-bottom: 10px;
+}
+
+.appz1 h1 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.appz1 P {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* ...............................pricing........................................ */
+
+body {
+  margin: 0px;
+}
+
+.home1z1 {
+  height: 720px;
+  background: url('../assets/Images/pricing_img.png');
+  background-position: center center;
+  margin-bottom: 0px;
+}
+
+.work1z1 {
+  color: black;
+}
+
+.paraSpeed1z1 {
+  color: black;
+}
+
+.connect1z1 {
+  /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 21px;
+  margin-bottom: 200px;
+
+}
+
+.easy1z1 p,
+.instant1z1 p,
+.enjoy1z1 p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.easy1z1 h5,
+.instant1z1 h5,
+.enjoy1z1 h5 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.easy1z1 {
+  border: 0px solid white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px grey;
+  height: 445px;
+  width: 404px;
+  background-color: rgb(255, 255, 255);
+  background: transparent;
+  padding-top: 100px;
+
+}
+
+.card-sub-header {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+}
+
+.easy1z1 h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.instant1z1 {
+  border: 0px solid white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px grey;
+  height: 445px;
+  width: 404px;
+  background-color: rgb(255, 255, 255);
+  background: transparent;
+  padding-top: 100px;
+
+}
+
+.instant1z1 h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.enjoy1z1 {
+  border: 0px solid white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px grey;
+  height: 445px;
+  width: 404px;
+  background-color: rgb(255, 255, 255);
+  background: transparent;
+  padding-top: 100px;
+}
+
+.enjoy1z1 h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.work1z1 h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.money1z {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.money2z {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.money3z {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#rupee1z {
+  font-size: 50px;
+  color: rgb(85, 81, 239);
+}
+
+.easy1z1:hover .money1z h5,
+.easy1z1:hover .money1z #rupee1z,
+.easy1z1:hover .money1z h6 {
+  color: #0fec16;
+}
+
+#rupee2z {
+  font-size: 50px;
+  color: rgb(85, 81, 239);
+}
+
+.instant1z1:hover .money2z h5,
+.instant1z1:hover .money2z #rupee2z,
+.instant1z1:hover .money2z h6 {
+  color: #0fec16;
+}
+
+#rupee3z {
+  font-size: 50px;
+  color: rgb(85, 81, 239);
+}
+
+.enjoy1z1:hover .money3z h5,
+.enjoy1z1:hover .money3z #rupee3z,
+.enjoy1z1:hover .money3z h6 {
+  color: #0fec16;
+}
+
+#btnsNew1z {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgb(85, 81, 239);
+  color: white;
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  /* transition: 0.4s */
+  background-position: 100% 0;
+  transition: background-size 0.6s, background-position 0.6s;
+}
+
+#btnsNew1z:hover {
+  background-size: 100% 100%;
+  color: white;
+}
+
+#btnsNew2z {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgb(85, 81, 239);
+  color: white;
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  /* transition: 0.4s */
+  background-position: 100% 0;
+  transition: background-size 0.6s, background-position 0.6s;
+}
+
+#btnsNew2z:hover {
+  background-size: 100% 100%;
+  color: white;
+}
+
+#btnsNew3z {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgb(85, 81, 239);
+  color: white;
+  border: none;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  background-image: radial-gradient(at center center, #18ec09 0%, #18ec09 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  /* transition: 0.4s */
+  background-position: 100% 0;
+  transition: background-size 0.6s, background-position 0.6s;
+}
+
+#btnsNew3z:hover {
+  background-size: 100% 100%;
+  color: white;
+}
+
+.cashIcon1 {
+  font-size: 30px;
+  padding-bottom: 23px;
+  color: rgb(85, 81, 239);
+}
+
+.cashIcon2 {
+  font-size: 30px;
+  padding-bottom: 23px;
+  color: rgb(85, 81, 239);
+}
+
+.cashIcon3 {
+  font-size: 30px;
+  padding-bottom: 23px;
+  color: rgb(85, 81, 239);
+}
+
+.moIcon1 {
+  color: rgb(85, 81, 239);
+  font-size: 16px;
+  padding-top: 23px;
+}
+
+.moIcon2 {
+  color: rgb(85, 81, 239);
+  font-size: 16px;
+  padding-top: 23px;
+}
+
+.moIcon3 {
+  color: rgb(85, 81, 239);
+  font-size: 16px;
+  padding-top: 23px;
+}
+
+
+/* .................otherPageSpace........................... */
+
+body {
+  margin: 0px;
+}
+
+.otherPagesSpace1 {
+  height: 480px;
+  background-color: #6562F1;
+  /* Add the blue background color */
+  background-image: url('../assets/Images/footer_bg_elements_img-1.png');
+  background-size: cover;
+  /* Optional: Adjust background-size to cover the container */
+  background-repeat: no-repeat;
+  /* Optional: Adjust background-repeat behavior */
+  display: flex;
+  text-align: left;
+  padding: 120px 280px;
+  background-position: 63%;
+}
+
+.otherPagesSpace1 h1 {
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+}
+
+.otherPagesSpace1 h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.LogsSpace1 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+
+
+}
+
+.LogsSpace1 h1 {
+  font-size: 24px;
+}
+
+.LogsSpace1 h5 {
+  font-size: 16px;
+  margin: 20px 0px;
+}
+
+.premiumSpace1 {
+  color: white;
+  font-family: 'TeXGyreAdventor-Bold', sans-serif;
+  font-weight: bold;
+  padding-left: 110px;
+}
+
+.premiumSpace1 h1 {
+  font-size: 24px;
+}
+
+.premiumSpace1 h5 {
+  font-size: 16px;
+  margin: 20px 0px;
+}
+
+
+/* .................final............................ */
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(13, 30, 103);
+}
+
+.regular1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  color: rgb(240, 251, 245);
+  font-size: 22px;
+  padding-left: 70px;
+}
+
+.done1 h1 {
+  font-size: 22px;
+  padding-top: 10px;
+  color: rgb(240, 251, 245);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding-right: 70px;
+}
+
+@media (min-width:1281px) {
+  .trusts1 h1 {
+ 
+    font-weight: 600;
+    font-size: 32px;
+}
+.redImg1 img {
+  width: 496px;
+}
+
+  .FullGurd1 {
+    width: 40%;
+  }
+  .Works1 {
+    text-align: left;
+    padding-left: 106px;
+    padding-right: 14rem;
+}
+.whatIs1 {
+  padding-left: 109px;
+  margin: 20px 0px;
+  padding-right: 93px;
+}
+.supportz1{
+  height: 290px;
+  width: 240px;
+}
+.partnerz1{
+  height: 290px;
+  width: 240px;
+}
+.clientz1 {
+  height: 290px;
+  width: 240px;
+}
+.appz1{
+  height: 290px;
+  width: 240px;
+}
+
+.easy1z1 {
+  height: 445px;
+    width: 320px;
+}
+.instant1z1{
+  height: 445px;
+    width: 320px;
+}
+.enjoy1z1{
+  height: 445px;
+  width: 320px;
+}
+
+}
+@media (min-width:1350px){
+  .whatIs1 {
+    padding-left: 129px;
+    margin: 20px 0px;
+    padding-right: 93px;
+}
+.Works1 {
+  text-align: left;
+  padding-left: 129px;
+  padding-right: 14rem;
+}
+.easy1z1 {
+  height: 445px;
+  width: 323px;
+}
+.instant1z1{
+  height: 445px;
+  width: 323px;
+}
+.enjoy1z1 {
+  height: 445px;
+  width: 323px;
+}
+
+
+}
+
+
+
+@media (min-width:1450px){
+  .Works1 {
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 14rem;
+}
+.whatIs1 {
+  padding-left: 151px;
+  margin: 20px 0px;
+  padding-right: 93px;
+}
+.supportz1 {
+  width: 260px;
+}
+
+.partnerz1 {
+  width: 260px;
+}
+
+.clientz1 {
+  width: 260px;
+}
+
+.appz1 {
+  width: 260px;
+}
+
+.easy1z1 {
+  height: 445px;
+  width: 360px;
+}
+.instant1z1{
+  height: 445px;
+  width: 360px;
+}
+.enjoy1z1{
+  height: 445px;
+  width: 360px;
+}
+}
+
+@media (min-width:1500px){
+  .redImg1 img {
+    width: 472px;
+}
+  .Works1 {
+    text-align: left;
+    padding-left: 174px;
+    padding-right: 14rem;
+}
+.whatIs1 {
+  padding-left: 174px;
+  margin: 20px 0px;
+  padding-right: 93px;
+}
+.Works1 {
+  text-align: left;
+  padding-left: 188px;
+  padding-right: 14rem;
+}
+.whatIs1 {
+  padding-left: 188px;
+  margin: 20px 0px;
+  padding-right: 93px;
+}
+}
+
+
+@media (min-width:1600px){
+  .Works1 {
+    text-align: left;
+    padding-left: 206px;
+    padding-right: 14rem;
+}
+.whatIs1 {
+  padding-left: 206px;
+  margin: 20px 0px;
+  padding-right: 93px;
+}
+.supportz1 {
+  width: 270px;
+}
+
+.partnerz1 {
+  width: 270px;
+}
+
+.clientz1 {
+  width: 270px;
+}
+
+.appz1 {
+  width: 270px;
+}
+
+}
+
+@media (min-width:1650px){
+  .Works1 {
+    text-align: left;
+    padding-left: 224px;
+    padding-right: 14rem;
+}
+.whatIs1 {
+  padding-left: 228px;
+  margin: 20px 0px;
+  padding-right: 93px;
+}
+.trusts1 h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+}
+
+@media (min-width:1700px){
+  .Works1 {
+    text-align: left;
+    padding-left: 242px;
+    padding-right: 14rem;
+}
+.whatIs1 {
+  padding-left: 242px;
+  margin: 20px 0px;
+  padding-right: 93px;
+}
+}
+@media (min-width:1700px){
+  .supportz1 {
+    width: 291px;
+  }
+  .partnerz1 {
+    width: 291px;
+  }
+  
+  .clientz1 {
+    width: 291px;
+  }
+  
+  .appz1 {
+    width: 291px;
+  }
+
+  .easy1z1 {
+    height: 445px;
+    width: 396px;
+}
+.instant1z1{
+  height: 445px;
+  width: 396px;
+}
+.enjoy1z1 {
+  height: 445px;
+  width: 396px;
+}
+}
+
+@media (min-width:1800px){
+  .redImg1 img {
+    width: 501px;
+}
+.redImg1 img {
+  width: 530px;
+}
+}
+@media (min-width:1800px){
+  .redImg1 img {
+    width: 518px;
+}
+}
+@media (min-width:1850px){
+  .supportz1 {
+    width: 324px;
+  }
+  .partnerz1 {
+    width: 324px;
+  }
+  
+  .clientz1 {
+    width: 324px;
+  }
+  
+  .appz1 {
+    width: 324px;
+  }
+
+  .easy1z1 {
+    height: 445px;
+    width: 445px;
+}
+.instant1z1{
+  height: 445px;
+  width: 445px;
+}
+.enjoy1z1 {
+  height: 445px;
+  width: 445px;
+}
+}
+
+@media (min-width:1900px){
+  .redImg1 img {
+    width: 559px;
+  }
+}
+
+
+
+
+@media (max-width:1280px) {
+  .trusts1 h1 {
+    font-size: 30px;
+  }
+
+  .redImg1 img {
+    width: 430px;
+  }
+
+  .FullGurd1 {
+    width: 40%;
+  }
+
+  .Works1 {
+    padding-left: 9rem;
+    padding-right: 8rem;
+  }
+
+  .whatIs1 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  #headCard1 {
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .work1z1 h1 {
+    padding-top: 30px;
+  }
+
+  .Teamz1 {
+    height: 530px;
+  }
+
+  .supportz1 {
+    width: 230px;
+  }
+
+  .partnerz1 {
+    width: 230px;
+  }
+
+  .clientz1 {
+    width: 230px;
+  }
+
+  .appz1 {
+    width: 230px;
+  }
+
+  .home1z1 {
+    height: 730px;
+  }
+
+  .easy1z1 {
+    width: 330px;
+    height: 445px;
+  }
+
+  .instant1z1 {
+    width: 330px;
+    height: 445px;
+  }
+
+  .enjoy1z1 {
+    width: 330px;
+    height: 445px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 140px;
+  }
+
+  .regular1 {
+    width: 30%;
+  }
+}
+
+@media (min-width:1750px){
+  .Works1 {
+    text-align: left;
+    padding-left: 256px;
+    padding-right: 14rem;
+}
+.whatIs1 {
+  padding-left: 256px;
+  margin: 20px 0px;
+  padding-right: 225px;
+}
+}
+
+@media(max-width:1250px) {
+  .Works1 {
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width:1200px) {
+  .Arrangement1 {
+    margin-top: 120px;
+  }
+
+  .easy1z1 {
+    width: 330px;
+    height: 445px;
+  }
+
+  .instant1z1 {
+    width: 330px;
+    height: 445px;
+  }
+
+  .enjoy1z1 {
+    width: 330px;
+    height: 445px;
+  }
+
+  .supportz1 {
+    width: 220px;
+  }
+
+  .partnerz1 {
+    width: 220px;
+  }
+
+  .clientz1 {
+    width: 220px;
+  }
+
+  .appz1 {
+    width: 220px;
+  }
+
+  .home1z1 {
+    height: 720px;
+  }
+
+  #headCard1 {
+    text-align: center;
+  }
+}
+
+@media(max-width:1150px) {
+  .Arrangement1 {
+    gap: 25px;
+    margin-top: 122px;
+  }
+
+  .Works1 {
+    padding-right: 5rem;
+  }
+
+  .Teamz1 {
+    gap: 30px;
+  }
+
+  .easy1z1 {
+    width: 300px;
+    height: 450px;
+  }
+
+  .instant1z1 {
+    width: 300px;
+    height: 450px;
+  }
+
+  .enjoy1z1 {
+    width: 300px;
+    height: 450px;
+  }
+
+  .home1z1 {
+    height: 720px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 95px;
+  }
+}
+
+@media(max-width:1130px) {
+  .redImg1 img {
+    width: 425px;
+    height: 350px;
+  }
+
+  .FullGurd1 {
+    width: 42%;
+  }
+
+  .whatIs1 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .Teamz1 {
+    gap: 15px;
+  }
+
+  .supportz1 {
+    width: 230px;
+  }
+
+  .partnerz1 {
+    width: 230px;
+  }
+
+  .clientz1 {
+    width: 230px;
+  }
+
+  .appz1 {
+    width: 230px;
+  }
+
+  .Works1 {
+    padding-left: 7rem;
+    padding-right: 6re;
+  }
+}
+
+@media(max-width:1100px) {
+  .easy1z1 {
+    width: 300px;
+  }
+
+  .instant1z1 {
+    width: 300px;
+  }
+
+  .enjoy1z1 {
+    width: 300px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 95px;
+  }
+
+  .supportz1 {
+    width: 220px;
+  }
+
+  .partnerz1 {
+    width: 220px;
+  }
+
+  .clientz1 {
+    width: 220px;
+  }
+
+  .appz1 {
+    width: 220px;
+  }
+}
+
+@media(max-width:1070px) {
+  .otherPagesSpace1 {
+    padding: 117px 95px;
+  }
+
+  .redImg1 img {
+    width: 410px;
+    height: 320px;
+  }
+
+  .trusts1 {
+    margin-top: 10px;
+  }
+
+  .trusts1 h1 {
+    font-size: 25px;
+  }
+}
+
+@media(max-width:1050px) {
+  .redImg1 img {
+    width: 440px;
+    height: 320px;
+  }
+
+  .FullGurd1 {
+    width: 42%;
+  }
+
+  .trusts1 {
+    margin-top: 10px;
+  }
+
+  .supportz1 {
+    width: 220px;
+  }
+
+  .partnerz1 {
+    width: 220px;
+  }
+
+  .clientz1 {
+    width: 220px;
+  }
+
+  .appz1 {
+    width: 220px;
+  }
+}
+
+@media (max-width:1024px) {
+  .redImg1 img {
+    width: 400px;
+    height: 330px;
+  }
+
+  .trusts1 h1 {
+    font-size: 25px;
+  }
+
+  .Works1 {
+    padding-left: 5rem;
+    padding-top: 1rem;
+  }
+
+  .whatIs1 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  #headCard1 {
+    padding-left: 10px;
+  }
+
+  .Teamz1 {
+    height: 550px;
+  }
+
+  .supportz1 {
+    width: 200px;
+  }
+
+  .partnerz1 {
+    width: 200px;
+  }
+
+  .clientz1 {
+    width: 200px;
+  }
+
+  .appz1 {
+    width: 200px;
+  }
+
+  .home1z1 {
+    height: 720px;
+  }
+
+  .easy1z1 {
+    width: 280px;
+    height: 460px;
+  }
+
+  .instant1z1 {
+    width: 280px;
+    height: 460px;
+  }
+
+  .enjoy1z1 {
+    width: 280px;
+    height: 460px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 70px;
+    height: 480px;
+  }
+}
+
+@media(max-width:1000px) {
+  .easy1z1 {
+    width: 260px;
+    height: 460px;
+  }
+
+  .instant1z1 {
+    width: 260px;
+    height: 460px;
+  }
+
+  .enjoy1z1 {
+    width: 260px;
+    height: 460px;
+  }
+
+  .Teamz1 {
+    padding-top: 120px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 85px;
+    height: 480px;
+  }
+}
+
+@media(max-width:990px) {
+  .redImg1 img {
+    height: 300px;
+  }
+
+  .FullGurd1 {
+    width: 25rem;
+    font-size: 13px;
+  }
+
+  .Works1 {
+    padding-top: 0px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 80px;
+  }
+}
+
+@media(max-width:950px) {
+  .redImg1 img {
+    width: 360px;
+  }
+
+  .panel.show1 {
+    width: 90%;
+  }
+
+  #wstep2 {
+    width: 90%;
+  }
+
+  .work1z1 h1 {
+    padding-top: 30px;
+  }
+
+  .Teamz1 {
+    height: 530px;
+  }
+}
+
+@media(max-width:930px) {
+  .FullGurd1 {
+    width: 40%;
+  }
+
+  .trusts1 h1 {
+    font-size: 22px;
+  }
+}
+
+@media(max-width:900px) {
+  .Teamz1 {
+    gap: 15px;
+  }
+
+  .supportz1 {
+    width: 180px;
+  }
+
+  .partnerz1 {
+    width: 180px;
+  }
+
+  .clientz1 {
+    width: 180px;
+  }
+
+  .appz1 {
+    width: 180px;
+  }
+
+  .easy1z1 {
+    width: 250px;
+    height: 437px;
+  }
+
+  .instant1z1 {
+    width: 250px;
+    height: 437px;
+  }
+
+  .enjoy1z1 {
+    width: 250px;
+    height: 437px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 63px;
+    height: 480px;
+  }
+}
+
+@media(max-width:880px) {
+  .home1z1 {
+    height: 91rem;
+  }
+
+  .work1z1 h1 {
+    padding-top: 30px;
+  }
+
+  .connect1z1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .easy1z1 {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z1 {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z1 {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+}
+
+@media(max-width:860px) {
+  .Teamz1 {
+    gap: 30px;
+    height: 995px;
+    padding-top: 120px;
+  }
+
+  .supportz1 {
+    width: 300px;
+    height: 310px;
+    padding: 85px;
+  }
+
+  .partnerz1 {
+    width: 300px;
+    height: 310px;
+    padding: 85px;
+  }
+
+  .clientz1 {
+    width: 300px;
+    height: 310px;
+    padding: 85px;
+  }
+
+  .appz1 {
+    width: 300px;
+    height: 310px;
+    padding: 85px;
+  }
+}
+
+@media (max-width:840px) {
+  .Arrangement1 {
+    display: flex;
+    flex-direction: row;
+    height: 580px;
+    margin-top: 120px;
+  }
+
+  .redImg1 img {
+    width: 500px;
+  }
+
+  .FullGurd1 {
+    width: 85%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .Works1 {
+    padding-top: 60px;
+  }
+
+  .regular1 {
+    padding-left: 20px;
+  }
+
+  .done1 h1 {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width:768px) {
+  .redImg1 img {
+    width: 500px;
+    height: 330px;
+  }
+
+  .trusts1 h1 {
+    font-size: 20px;
+  }
+
+  .Arrangement1 {
+    margin-top: 120px;
+    height: 720px;
+    gap: 10px;
+  }
+
+  #wstep2 {
+    width: 100%;
+  }
+
+  .panel.show1 {
+    width: 90%;
+  }
+
+  .Works1 {
+    padding-left: 5rem;
+    padding-top: 30px;
+  }
+
+  .whatIs1 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  #headCard1 {
+    padding-right: 30px;
+  }
+
+  .Teamz1 {
+    height: 55rem;
+    gap: 20px;
+    padding-top: 100px;
+  }
+
+  .supportz1 {
+    width: 250px;
+    height: 300px;
+    padding: 66px;
+  }
+
+  .partnerz1 {
+    width: 250px;
+    height: 300px;
+    padding: 66px;
+  }
+
+  .clientz1 {
+    width: 250px;
+    height: 300px;
+    padding: 66px;
+  }
+
+  .appz1 {
+    width: 250px;
+    height: 300px;
+    padding: 66px;
+  }
+
+  .connect1z1 {
+    gap: 70px;
+  }
+
+  .home1z1 {
+    height: 97rem;
+  }
+
+  .easy1z1 {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z1 {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z1 {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .regular1 {
+    padding-left: 10px;
+    width: 35%;
+  }
+
+  .done1 {
+    width: 45%;
+  }
+
+  .done1 h1 {
+    padding-right: 10px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 65px;
+    height: 480px;
+  }
+}
+
+@media(max-width:760px) {
+  .servHead1 h1 {
+    font-size: 45px;
+  }
+
+  .paraSpeed1z1 {
+    margin-left: 5rem;
+    margin-right: 3rem;
+    text-align: left;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 80px;
+  }
+}
+
+@media(max-width:670px) {
+  .servHead1 h1 {
+    font-size: 43px;
+  }
+}
+
+@media(max-width:650px) {
+  .servHead1 h1 {
+    font-size: 40px;
+  }
+
+  .nowHom h4 {
+    font-size: 20px;
+  }
+
+  .DotNow1 h4 {
+    font-size: 20px;
+  }
+
+  .nowServ h4 {
+    font-size: 20px;
+  }
+
+  .DotNow2 h4 {
+    font-size: 20px;
+  }
+
+  .nowDesn h4 {
+    font-size: 20px;
+  }
+
+  .whatIs1 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media(max-width:630px) {
+  .redImg1 img {
+    width: 450px;
+  }
+
+  .done1 {
+    width: 50%;
+  }
+}
+
+@media(max-width:596px) {
+  .otherPagesSpace1 {
+    padding: 117px 70px;
+  }
+}
+
+@media (max-width:590px) {
+  .servHead1 h1 {
+    font-size: 38px;
+  }
+
+  .nowHom h4 {
+    font-size: 18px;
+  }
+
+  .DotNow1 h4 {
+    font-size: 18px;
+  }
+
+  .nowServ h4 {
+    font-size: 18px;
+  }
+
+  .DotNow2 h4 {
+    font-size: 18px;
+  }
+
+  .nowDesn h4 {
+    font-size: 18px;
+  }
+}
+
+@media(max-width:580px) {
+  .Arrangement1 {
+    margin-top: 130px;
+  }
+
+  .redImg1 img {
+    width: 400px;
+  }
+
+  #vpnImage {
+    width: 90%;
+  }
+
+  #ConfigureVPN {
+    width: 95%;
+  }
+
+  .supportz1 {
+    width: 200px;
+    height: 300px;
+  }
+
+  .partnerz1 {
+    width: 200px;
+    height: 300px;
+  }
+
+  .clientz1 {
+    width: 200px;
+    height: 300px;
+  }
+
+  .appz1 {
+    width: 200px;
+    height: 300px;
+  }
+
+  .servHead1 h1 {
+    font-size: 35px;
+  }
+
+  .nowHom h4 {
+    font-size: 16px;
+  }
+
+  .DotNow1 h4 {
+    font-size: 16px;
+  }
+
+  .nowServ h4 {
+    font-size: 16px;
+  }
+
+  .DotNow2 h4 {
+    font-size: 16px;
+  }
+
+  .nowDesn h4 {
+    font-size: 16px;
+  }
+
+  .Works1 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 64px;
+  }
+}
+
+@media (max-width:562px) {
+  .otherPagesSpace1 {
+    padding: 117px 50px;
+  }
+}
+
+@media (max-width:540px) {
+  .servHead1 h1 {
+    font-size: 33px;
+  }
+
+  .nowHom h4 {
+    font-size: 15px;
+  }
+
+  .DotNow1 h4 {
+    font-size: 15px;
+  }
+
+  .nowServ h4 {
+    font-size: 15px;
+  }
+
+  .DotNow2 h4 {
+    font-size: 15px;
+  }
+
+  .nowDesn h4 {
+    font-size: 15px;
+  }
+
+  /* .otherPagesSpace {
+    padding: 120px 45px;
+  } */
+
+  .premiumSpace1 {
+    padding-left: 90px;
+  }
+}
+
+@media (max-width:520px) {
+  #headCard1 {
+    padding-right: 15px;
+  }
+
+  .premiumSpace1 {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width:480px) {
+  .servHead1 h1 {
+    font-size: 30px;
+  }
+
+  .redImg img {
+    width: 75%;
+  }
+
+  .otherPagesSpace1 {
+    padding: 100px 30px;
+  }
+
+  .premiumSpace {
+    padding-left: 30px;
+  }
+
+  .regular {
+    font-size: 18px;
+  }
+
+  .done h1 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:455px) {
+  .Teamz1 {
+    gap: 4rem;
+    height: 100rem;
+  }
+
+  .supportz1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .partnerz1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .clientz1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .appz1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 30px;
+  }
+
+  .regular1 {
+    width: 40%;
+  }
+}
+
+@media(max-width:440px) {
+  .servHead1 h1 {
+    font-size: 28px;
+  }
+
+  .redImg1 img {
+    width: 75%;
+    height: 20rem;
+  }
+
+  .nowHom h4 {
+    font-size: 13px;
+  }
+
+  .DotNow1 h4 {
+    font-size: 13px;
+  }
+
+  .nowServ h4 {
+    font-size: 13px;
+  }
+
+  .DotNow2 h4 {
+    font-size: 13px;
+  }
+
+  .nowDesn h4 {
+    font-size: 13px;
+  }
+
+  .premiumSpace1 {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width:425px) {
+  .service {
+    width: 100%;
+  }
+
+  .trusts1 h1 {
+    font-size: 20px;
+  }
+
+  .Arrangement1 {
+    margin-top: 90px;
+    height: 750px;
+    gap: 10px;
+  }
+
+  .redImg1 img {
+    width: 75%;
+    height: 18rem;
+  }
+
+  .FullGurd1 {
+    width: 380px;
+  }
+
+  #wstep2 {
+    width: 100%;
+  }
+
+  .panel.show1 {
+    width: 100%;
+  }
+
+  #vpnImage1 {
+    width: 100%;
+  }
+
+  #ConfigureVPN1 {
+    width: 100%;
+  }
+
+  .Works1 {
+    padding-left: 2rem;
+  }
+
+  .whatIs1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #headCard1 {
+    padding-right: 50px;
+  }
+
+  .Teamz1 {
+    height: 100rem;
+    gap: 20px;
+    padding-top: 100px;
+  }
+
+  .supportz1 {
+    width: 250px;
+    height: 260px;
+  }
+
+  .partnerz1 {
+    width: 250px;
+    height: 260px;
+  }
+
+  .clientz1 {
+    width: 250px;
+    height: 260px;
+  }
+
+  .appz1 {
+    width: 250px;
+    height: 260px;
+  }
+
+  .connect1z1 {
+    gap: 70px;
+  }
+
+  .home1z1 {
+    height: 97rem;
+  }
+
+  .easy1z1 {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z1 {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z1 {
+    width: 350px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 16px;
+    height: 480px;
+  }
+
+  .premiumSpace1 {
+    padding-left: 40px;
+  }
+
+  .regular1 {
+    padding-left: 10px;
+  }
+
+  .done1 {
+    width: 45%;
+  }
+
+  .done1 h1 {
+    padding-right: 10px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width:420px) {
+  .servHead1 h1 {
+    font-size: 25px;
+  }
+
+  .Works1 {
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width:405px) {
+  .premiumSpace1 h1 {
+    font-size: 25px;
+  }
+
+  .LogsSpace1 h1 {
+    font-size: 25px;
+  }
+
+  #headCard1 {
+    padding-right: 20px;
+  }
+
+  .regular1 {
+    width: 48%;
+  }
+}
+
+@media (max-width:375px) {
+  .service {
+    width: 100%;
+  }
+
+  .servHead1 h1 {
+    font-size: 45px;
+  }
+
+  .trusts1 h1 {
+    font-size: 20px;
+  }
+
+  .Arrangement1 {
+    margin-top: 120px;
+    height: 750px;
+    gap: 10px;
+  }
+
+  .redImg1 img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .FullGurd1 {
+    width: 300px;
+  }
+
+  #wstep2 {
+    width: 100%;
+  }
+
+  .panel.show1 {
+    width: 100%;
+  }
+
+  #vpnImage1 {
+    width: 100%;
+  }
+
+  #ConfigureVPN1 {
+    width: 100%;
+  }
+
+  .Works1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .whatIs1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #headCard1 {
+    padding-right: 20px;
+  }
+
+  .Teamz1 {
+    height: 100rem;
+    gap: 20px;
+    padding-top: 60px;
+  }
+
+  .supportz1 {
+    width: 250px;
+    height: 260px;
+  }
+
+  .partnerz1 {
+    width: 250px;
+    height: 260px;
+  }
+
+  .clientz1 {
+    width: 250px;
+    height: 260px;
+  }
+
+  .appz1 {
+    width: 250px;
+    height: 260px;
+  }
+
+  .connect1z1 {
+    gap: 70px;
+  }
+
+  .home1z1 {
+    height: 100rem;
+  }
+
+  .easy1z1 {
+    width: 330px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z1 {
+    width: 330px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z1 {
+    width: 330px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .otherPagesSpace1 {
+    padding: 117px 15px;
+  }
+
+  .LogsSpace1 h1 span {
+    display: none;
+  }
+
+  .premiumSpace1 h1 span {
+    display: none;
+  }
+
+  .premiumSpace1 {
+    padding-left: 35px;
+  }
+
+  .regular1 {
+    padding-left: 10px;
+  }
+
+  .fb,
+  .tweet,
+  .inst,
+  .lkdn {
+    font-size: 15px;
+  }
+
+  .done1 {
+    width: 45%;
+  }
+
+  .done1 h1 {
+    padding-right: 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:350px) {
+  .premiumSpace1 {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width:320px) {
+  .servHead1 h1 {
+    font-size: 35px;
+  }
+
+  .easy1z1 {
+    width: 300px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .instant1z1 {
+    width: 300px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .enjoy1z1 {
+    width: 300px;
+    height: 380px;
+    padding-top: 60px;
+  }
+
+  .otherPagesSpace1 {
+    height: 500px;
+  }
+
+  .LogsSpace1 {
+    font-size: 25px;
+  }
+
+  .premiumSpace1 {
+    padding-left: 15px;
+  }
+
+  .premiumSpace1 h1 {
+    font-size: 25px;
+  }
+
+  .done1 h1 {
+    font-size: 12px;
+  }
+}
+
+/* @media (min-width:1280px) {
+  .redImg1 img {
+    width: 430px;
+  }
+
+  .FullGurd1 {
+    width: 45%;
+  }
+
+  .Works1 {
+    padding-left: 140px;
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width:1920px) {} */
